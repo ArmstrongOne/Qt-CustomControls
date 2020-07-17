@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginStateWid</class>
+ <widget class="QWidget" name="LoginStateWid">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>160</width>
+    <height>160</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>160</width>
+    <height>160</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>160</width>
+    <height>160</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>LoginStateWid</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QWidget" name="wid_main" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>150</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>150</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 200);</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2" rowstretch="10,10,10,10,10" rowminimumheight="10,10,10,10,10">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QRadioButton" name="radiobtn_state_online">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QRadioButton{color: rgb(0, 0, 0);padding-left:10px;} 
+
+QRadioButton::indicator {width: 15px; height:15px;color: rgb(166, 166, 166);}
+
+QRadioButton:focus
+{
+color:rgb(166, 166, 166);
+}
+
+QRadioButton::hover:unchecked 
+{
+background-color: rgb(238, 238, 238);
+}
+
+QRadioButton::hover:checked 
+{
+background-color: rgb(238, 238, 238);
+}
+QRadioButton::indicator:unchecked 
+{
+border-image: url(:/icon/Win_Login/state_online.png); 
+}
+
+QRadioButton::indicator:checked 
+{
+border-image: url(:/icon/Win_Login/state_online.png);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>  我在线上</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QRadioButton" name="radiobtn_state_leave">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QRadioButton{color: rgb(0, 0, 0);padding-left:10px;} 
+
+
+QRadioButton::indicator {width: 15px; height:15px;color: rgb(166, 166, 166);}
+
+QRadioButton:focus
+{
+color:rgb(166, 166, 166);
+}
+
+QRadioButton::hover:unchecked 
+{
+background-color: rgb(238, 238, 238);
+}
+
+QRadioButton::hover:checked 
+{
+background-color: rgb(238, 238, 238);
+}
+QRadioButton::indicator:unchecked 
+{
+border-image: url(:/icon/Win_Login/state_leave.png); 
+}
+
+QRadioButton::indicator:checked 
+{
+border-image: url(:/icon/Win_Login/state_leave.png); 
+}</string>
+        </property>
+        <property name="text">
+         <string>  离开</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QRadioButton" name="radiobtn_state_notdisturb">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QRadioButton{color: rgb(0, 0, 0);padding-left:10px;} 
+
+
+QRadioButton::indicator {width: 15px; height:15px;color: rgb(166, 166, 166);}
+
+QRadioButton:focus
+{
+color:rgb(166, 166, 166);
+}
+
+QRadioButton::hover:unchecked 
+{
+background-color: rgb(238, 238, 238);
+}
+
+QRadioButton::hover:checked 
+{
+background-color: rgb(238, 238, 238);
+}
+QRadioButton::indicator:unchecked 
+{
+border-image: url(:/icon/Win_Login/state_ban.png); 
+}
+
+QRadioButton::indicator:checked 
+{
+border-image: url(:/icon/Win_Login/state_ban.png); 
+}</string>
+        </property>
+        <property name="text">
+         <string>  请勿打扰</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QRadioButton" name="radiobtn_state_busy">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QRadioButton{color: rgb(0, 0, 0);padding-left:10px;} 
+
+
+QRadioButton::indicator {width: 15px; height:15px;color: rgb(166, 166, 166);}
+
+QRadioButton:focus
+{
+color:rgb(166, 166, 166);
+}
+
+QRadioButton::hover:unchecked 
+{
+background-color: rgb(238, 238, 238);
+}
+
+QRadioButton::hover:checked 
+{
+background-color: rgb(238, 238, 238);
+}
+QRadioButton::indicator:unchecked 
+{
+border-image: url(:/icon/Win_Login/state_busy.png); 
+}
+
+QRadioButton::indicator:checked 
+{
+border-image: url(:/icon/Win_Login/state_buzy.png); 
+}</string>
+        </property>
+        <property name="text">
+         <string>  忙碌</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QRadioButton" name="radiobtn_state_invisable">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QRadioButton{color: rgb(0, 0, 0);padding-left:10px;} 
+
+
+QRadioButton::indicator {width: 15px; height:15px;color: rgb(166, 166, 166);}
+
+QRadioButton:focus
+{
+color:rgb(166, 166, 166);
+}
+
+QRadioButton::hover:unchecked 
+{
+background-color: rgb(238, 238, 238);
+}
+
+QRadioButton::hover:checked 
+{
+background-color: rgb(238, 238, 238);
+}
+QRadioButton::indicator:unchecked 
+{
+border-image: url(:/icon/Win_Login/state_yinshen.png); 
+}
+
+QRadioButton::indicator:checked 
+{
+border-image: url(:/icon/Win_Login/state_yinshen.png); 
+}</string>
+        </property>
+        <property name="text">
+         <string>  隐身</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="panda_chat.qrc"/>
+ </resources>
+ <connections/>
+</ui>

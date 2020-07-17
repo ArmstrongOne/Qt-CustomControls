@@ -1,0 +1,37 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+<Qt_DEFINES_>UNICODE;WIN32;WIN64;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB</Qt_DEFINES_>
+<Qt_INCLUDEPATH_>C:/Qt/Qt5.8.0/5.8/msvc2015_64/include;C:/Qt/Qt5.8.0/5.8/msvc2015_64/include/QtWidgets;C:/Qt/Qt5.8.0/5.8/msvc2015_64/include/QtGui;C:/Qt/Qt5.8.0/5.8/msvc2015_64/include/QtANGLE;C:/Qt/Qt5.8.0/5.8/msvc2015_64/include/QtCore</Qt_INCLUDEPATH_>
+<Qt_LIBPATH_>$(Qt_LIBPATH_);C:\Qt\Qt5.8.0\5.8\msvc2015_64\lib</Qt_LIBPATH_> 
+<Qt_LIBS_>$(Qt_LIBS_);C:\Qt\Qt5.8.0\5.8\msvc2015_64\lib\qtmain.lib</Qt_LIBS_> 
+<Qt_LIBPATH_>$(Qt_LIBPATH_);C:\utils\my_sql\my_sql\lib</Qt_LIBPATH_> 
+<Qt_LIBPATH_>$(Qt_LIBPATH_);C:\utils\postgresql\pgsql\lib</Qt_LIBPATH_> 
+<Qt_LIBS_>$(Qt_LIBS_);shell32.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);C:\Qt\Qt5.8.0\5.8\msvc2015_64\lib\Qt5Widgets.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);C:\Qt\Qt5.8.0\5.8\msvc2015_64\lib\Qt5Gui.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);C:\Qt\Qt5.8.0\5.8\msvc2015_64\lib\Qt5Core.lib</Qt_LIBS_> 
+<Qt_INCLUDEPATH_
+      >$(Qt_INCLUDEPATH_);x64\Release\moc;x64\Release\uic</Qt_INCLUDEPATH_>
+    <QtBkup_QtInstall
+      >msvc2015_64</QtBkup_QtInstall>
+    <QtBkup_QtModules
+      >core;gui;widgets</QtBkup_QtModules>
+    <QtBkup_QtPathBinaries
+      >bin</QtBkup_QtPathBinaries>
+    <QtBkup_QtPathLibraryExecutables
+      >bin</QtBkup_QtPathLibraryExecutables>
+    <QtBkup_QtHeaderSearchPath
+      ></QtBkup_QtHeaderSearchPath>
+    <QtBkup_QtLibrarySearchPath
+      ></QtBkup_QtLibrarySearchPath>
+    <QtBkup_QtVariables
+      >DEFINES;INCLUDEPATH;LIBS</QtBkup_QtVariables>
+    <QtBkup_QMakeCodeLines
+      ></QtBkup_QMakeCodeLines>
+  </PropertyGroup>
+  <ItemGroup>
+    <QtVar Include="Qt_DEFINES_"><Value>$(Qt_DEFINES_)</Value></QtVar>
+<QtVar Include="Qt_INCLUDEPATH_"><Value>$(Qt_INCLUDEPATH_)</Value></QtVar>
+<QtVar Include="Qt_LIBS_"><Value>$(Qt_LIBS_)</Value></QtVar>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="/new/prefix1">
+    <file>icon/batch_handle_pic.png</file>
+    <file>icon/close.png</file>
+    <file>icon/company_logo.png</file>
+    <file>icon/dicom_modify_pic.png</file>
+    <file>icon/divider.png</file>
+    <file>icon/head_pic.png</file>
+    <file>icon/hide_btn.png</file>
+    <file>icon/icon5.png</file>
+    <file>icon/inifile_pic.png</file>
+    <file>icon/logo-2.png</file>
+    <file>icon/pushstation_pic.png</file>
+    <file>icon/reset_setting_pic.png</file>
+    <file>icon/rxtool_icon.ico</file>
+    <file>icon/zoom_btn.png</file>
+  </qresource>
+</RCC>

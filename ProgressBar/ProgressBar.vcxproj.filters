@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="DashBoard">
+      <UniqueIdentifier>{e0728837-62a2-47e1-b3b4-6f20e3952e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LinearProgressBar">
+      <UniqueIdentifier>{85666fd5-2d5d-408d-b942-88e2489d573c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RingProgressBar">
+      <UniqueIdentifier>{634cd092-1ad9-4326-a966-8d1bb007c9ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WaveProgressBar">
+      <UniqueIdentifier>{5119f9b0-8c86-4233-8412-396d31d74450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RectWaveProgressBar">
+      <UniqueIdentifier>{5cfb6b19-ed8d-4086-9a53-a9a4316584db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RectProgressBar">
+      <UniqueIdentifier>{a64c11d6-4645-4399-9a3d-0d7275853736}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DashBoard.cpp">
+      <Filter>DashBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearProgressBar.cpp">
+      <Filter>LinearProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="RingProgressBar.cpp">
+      <Filter>RingProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveProgressBar.cpp">
+      <Filter>WaveProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="RectProgressBar.cpp">
+      <Filter>RectProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="RectWaveProgressBar.cpp">
+      <Filter>RectWaveProgressBar</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="progressbar_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="DashBoard.h">
+      <Filter>DashBoard</Filter>
+    </QtMoc>
+    <QtMoc Include="LinearProgressBar.h">
+      <Filter>LinearProgressBar</Filter>
+    </QtMoc>
+    <QtMoc Include="RingProgressBar.h">
+      <Filter>RingProgressBar</Filter>
+    </QtMoc>
+    <QtMoc Include="WaveProgressBar.h">
+      <Filter>WaveProgressBar</Filter>
+    </QtMoc>
+    <QtMoc Include="RectProgressBar.h">
+      <Filter>RectProgressBar</Filter>
+    </QtMoc>
+    <QtMoc Include="RectWaveProgressBar.h">
+      <Filter>RectWaveProgressBar</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="DashBoard.ui">
+      <Filter>DashBoard</Filter>
+    </QtUic>
+    <QtUic Include="LinearProgressBar.ui">
+      <Filter>LinearProgressBar</Filter>
+    </QtUic>
+    <QtUic Include="RingProgressBar.ui">
+      <Filter>RingProgressBar</Filter>
+    </QtUic>
+    <QtUic Include="WaveProgressBar.ui">
+      <Filter>WaveProgressBar</Filter>
+    </QtUic>
+    <QtUic Include="RectProgressBar.ui">
+      <Filter>RectProgressBar</Filter>
+    </QtUic>
+    <QtUic Include="RectWaveProgressBar.ui">
+      <Filter>RectWaveProgressBar</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>

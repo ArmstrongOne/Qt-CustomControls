@@ -1,0 +1,49 @@
+﻿  Uic'ing CustomSlider.ui...
+  Moc'ing CustomSlider.h...
+  CustomSlider.cpp
+  moc_CustomSlider.cpp
+c:\users\dell\desktop\workspace\customslider\customslider\CustomSlider.h(6): error C2079: “CustomSlider”使用未定义的 class“CUSTOMSLIDER_EXPORT” (编译源文件 CustomSlider.cpp)
+c:\users\dell\desktop\workspace\customslider\customslider\generatedfiles\debug\../../CustomSlider.h(6): error C2079: “CustomSlider”使用未定义的 class“CUSTOMSLIDER_EXPORT” (编译源文件 GeneratedFiles\Debug\moc_CustomSlider.cpp)
+c:\users\dell\desktop\workspace\customslider\customslider\CustomSlider.h(6): error C2143: 语法错误: 缺少“;”(在“:”的前面) (编译源文件 CustomSlider.cpp)
+c:\users\dell\desktop\workspace\customslider\customslider\generatedfiles\debug\../../CustomSlider.h(6): error C2143: 语法错误: 缺少“;”(在“:”的前面) (编译源文件 GeneratedFiles\Debug\moc_CustomSlider.cpp)
+c:\users\dell\desktop\workspace\customslider\customslider\CustomSlider.h(6): error C2059: 语法错误:“:” (编译源文件 CustomSlider.cpp)
+c:\users\dell\desktop\workspace\customslider\customslider\generatedfiles\debug\../../CustomSlider.h(6): error C2059: 语法错误:“:” (编译源文件 GeneratedFiles\Debug\moc_CustomSlider.cpp)
+c:\users\dell\desktop\workspace\customslider\customslider\CustomSlider.h(6): error C2059: 语法错误:“public” (编译源文件 CustomSlider.cpp)
+c:\users\dell\desktop\workspace\customslider\customslider\generatedfiles\debug\../../CustomSlider.h(6): error C2059: 语法错误:“public” (编译源文件 GeneratedFiles\Debug\moc_CustomSlider.cpp)
+c:\users\dell\desktop\workspace\customslider\customslider\CustomSlider.h(7): error C2143: 语法错误: 缺少“;”(在“{”的前面) (编译源文件 CustomSlider.cpp)
+c:\users\dell\desktop\workspace\customslider\customslider\generatedfiles\debug\../../CustomSlider.h(7): error C2143: 语法错误: 缺少“;”(在“{”的前面) (编译源文件 GeneratedFiles\Debug\moc_CustomSlider.cpp)
+c:\users\dell\desktop\workspace\customslider\customslider\CustomSlider.h(7): error C2447: “{”: 缺少函数标题(是否是老式的形式表?) (编译源文件 CustomSlider.cpp)
+c:\users\dell\desktop\workspace\customslider\customslider\generatedfiles\debug\../../CustomSlider.h(7): error C2447: “{”: 缺少函数标题(是否是老式的形式表?) (编译源文件 GeneratedFiles\Debug\moc_CustomSlider.cpp)
+CustomSlider.cpp(3): error C2825: 'CustomSlider': 当后面跟“::”时必须为类或命名空间
+CustomSlider.cpp(3): error C2510: “CustomSlider”:“::”的左边必须是类/结构/联合
+GeneratedFiles\Debug\moc_CustomSlider.cpp(57): error C2825: 'CustomSlider': 当后面跟“::”时必须为类或命名空间
+CustomSlider.cpp(4): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+GeneratedFiles\Debug\moc_CustomSlider.cpp(57): error C2510: “CustomSlider”:“::”的左边必须是类/结构/联合
+GeneratedFiles\Debug\moc_CustomSlider.cpp(65): error C2825: 'CustomSlider': 当后面跟“::”时必须为类或命名空间
+CustomSlider.cpp(4): error C2365: “CustomSlider”: 重定义；以前的定义是“数据变量”
+GeneratedFiles\Debug\moc_CustomSlider.cpp(65): error C2510: “CustomSlider”:“::”的左边必须是类/结构/联合
+  c:\users\dell\desktop\workspace\customslider\customslider\CustomSlider.h(6): note: 参见“CustomSlider”的声明
+CustomSlider.cpp(5): error C2550: “CustomSlider”: 构造函数初始值设定项列表只能在构造函数定义中使用
+CustomSlider.cpp(6): error C2065: “ui”: 未声明的标识符
+CustomSlider.cpp(6): error C2228: “.setupUi”的左边必须有类/结构/联合
+  CustomSlider.cpp(6): note: 类型是“unknown-type”
+CustomSlider.cpp(6): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+GeneratedFiles\Debug\moc_CustomSlider.cpp(71): error C2825: 'CustomSlider': 当后面跟“::”时必须为类或命名空间
+GeneratedFiles\Debug\moc_CustomSlider.cpp(71): error C2510: “CustomSlider”:“::”的左边必须是类/结构/联合
+CustomSlider.cpp(9): error C2143: 语法错误: 缺少“;”(在“::”的前面)
+GeneratedFiles\Debug\moc_CustomSlider.cpp(72): error C2270: “metaObject”: 非成员函数上不允许修饰符
+CustomSlider.cpp(9): error C2059: 语法错误:“::”
+GeneratedFiles\Debug\moc_CustomSlider.cpp(73): error C2227: “->metaObject”的左边必须指向类/结构/联合/泛型类型
+CustomSlider.cpp(10): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+GeneratedFiles\Debug\moc_CustomSlider.cpp(73): error C2227: “->dynamicMetaObject”的左边必须指向类/结构/联合/泛型类型
+CustomSlider.cpp(10): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+GeneratedFiles\Debug\moc_CustomSlider.cpp(76): error C2825: 'CustomSlider': 当后面跟“::”时必须为类或命名空间
+GeneratedFiles\Debug\moc_CustomSlider.cpp(76): error C2510: “CustomSlider”:“::”的左边必须是类/结构/联合
+GeneratedFiles\Debug\moc_CustomSlider.cpp(80): error C2061: 语法错误: 标识符“CustomSlider”
+GeneratedFiles\Debug\moc_CustomSlider.cpp(80): error C2146: 语法错误: 缺少“(”(在标识符“CustomSlider”的前面)
+GeneratedFiles\Debug\moc_CustomSlider.cpp(81): error C2352: “QWidget::qt_metacast”: 非静态成员函数的非法调用
+  c:\qt\qt5.8.0\5.8\msvc2015_64\include\qtwidgets\qwidget.h(130): note: 参见“QWidget::qt_metacast”的声明
+GeneratedFiles\Debug\moc_CustomSlider.cpp(84): error C2825: 'CustomSlider': 当后面跟“::”时必须为类或命名空间
+GeneratedFiles\Debug\moc_CustomSlider.cpp(84): error C2510: “CustomSlider”:“::”的左边必须是类/结构/联合
+GeneratedFiles\Debug\moc_CustomSlider.cpp(86): error C2352: “QWidget::qt_metacall”: 非静态成员函数的非法调用
+  c:\qt\qt5.8.0\5.8\msvc2015_64\include\qtwidgets\qwidget.h(130): note: 参见“QWidget::qt_metacall”的声明

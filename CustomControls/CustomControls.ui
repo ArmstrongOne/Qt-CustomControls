@@ -1,0 +1,1550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CustomControlsClass</class>
+ <widget class="QWidget" name="CustomControlsClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>CustomControls</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2" columnstretch="1,30,2,160">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QWidget" name="blank_wid_left" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#blank_wid_left
+{
+background-color: rgb(40, 43, 51);
+}</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2" stretch="7,9">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="left_mark_wid" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#left_mark_wid
+{
+background-color: rgb(40, 43, 51);
+
+border:0px;
+}</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>1</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QWidget" name="blank_wid_right" native="true">
+     <property name="styleSheet">
+      <string notr="true">#blank_wid_right
+{
+background-color: rgb(40, 43, 51);
+}</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3" stretch="7,9">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="right_mark_wid" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#right_mark_wid
+{
+
+	background-color: rgb(40, 43, 51);
+
+border:0px;
+}</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>1</width>
+          <height>372</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="3">
+    <widget class="QWidget" name="tab_wid" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QTabWidget" name="main_tab_wid">
+        <property name="styleSheet">
+         <string notr="true">
+QTabWidget::pane 
+{ 
+border:0px solid;
+}
+
+</string>
+        </property>
+        <property name="currentIndex">
+         <number>2</number>
+        </property>
+        <widget class="QWidget" name="progressbar_tab">
+         <property name="styleSheet">
+          <string notr="true">
+#progressbar_tab{
+	
+	border-image: url(:/CustomControls/picture/background.png);
+}
+
+
+</string>
+         </property>
+         <attribute name="title">
+          <string>进度条</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout_8" rowstretch="10,5,10" columnstretch="10,10,10">
+          <property name="leftMargin">
+           <number>5</number>
+          </property>
+          <property name="topMargin">
+           <number>5</number>
+          </property>
+          <property name="rightMargin">
+           <number>5</number>
+          </property>
+          <property name="bottomMargin">
+           <number>5</number>
+          </property>
+          <property name="spacing">
+           <number>5</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="DashBoard" name="dash_board" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="RingProgressBar" name="ring_progressbar" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="LinearProgressBar" name="linear_progressbar" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="3">
+           <widget class="QWidget" name="widget_23" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_6" rowstretch="10,0,0" columnstretch="1">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <item row="2" column="0">
+              <spacer name="verticalSpacer_7">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>41</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="0">
+              <spacer name="verticalSpacer_6">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>42</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="1" column="0">
+              <widget class="QSlider" name="progress_slider">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="maximum">
+                <number>100</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="WaveProgressBar" name="wave_progressbar" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="RectProgressBar" name="rect_progressbar" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="RectWaveProgressBar" name="rect_wave_progressbar" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="sliderbar_tab">
+         <property name="styleSheet">
+          <string notr="true">#sliderbar_tab
+{
+
+
+	border-image: url(:/CustomControls/picture/background.png);
+
+
+
+
+}</string>
+         </property>
+         <attribute name="title">
+          <string>滑动条</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout_5" rowstretch="10,10" columnstretch="10,10,10,10">
+          <property name="leftMargin">
+           <number>5</number>
+          </property>
+          <property name="topMargin">
+           <number>5</number>
+          </property>
+          <property name="rightMargin">
+           <number>5</number>
+          </property>
+          <property name="bottomMargin">
+           <number>5</number>
+          </property>
+          <property name="spacing">
+           <number>5</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="CustomSlider" name="custom_slider" native="true"/>
+          </item>
+          <item row="0" column="1">
+           <widget class="DoubleHandleSlider" name="double_handle_slider" native="true"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="TipSlider" name="tip_slider" native="true"/>
+          </item>
+          <item row="0" column="3">
+           <widget class="StripSlider" name="strip_slider" native="true"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="CustomSliderStyleOne" name="custom_slider_style_one" native="true"/>
+          </item>
+          <item row="1" column="1">
+           <widget class="CustomSliderStyleTwo" name="custom_slider_style_two" native="true"/>
+          </item>
+          <item row="1" column="2">
+           <widget class="StripSliderStyleOne" name="strip_slider_style_one" native="true"/>
+          </item>
+          <item row="1" column="3">
+           <widget class="StripSliderStyleTwo" name="strip_slider_style_two" native="true"/>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="panel_tab">
+         <property name="styleSheet">
+          <string notr="true">#panel_tab
+{
+border-image: url(:/CustomControls/picture/background.png);
+
+}
+</string>
+         </property>
+         <attribute name="title">
+          <string>仪表盘</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout_11" rowstretch="20,1,20">
+          <property name="leftMargin">
+           <number>2</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>2</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
+          </property>
+          <property name="spacing">
+           <number>2</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="CustomPanel" name="custom_panel" native="true"/>
+          </item>
+          <item row="0" column="1">
+           <widget class="NetSpeedPanel" name="netspeed_panel" native="true"/>
+          </item>
+          <item row="1" column="0" colspan="2">
+           <widget class="QSlider" name="panel_slider">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximum">
+             <number>100</number>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" colspan="2">
+           <widget class="SemiCirclePanel" name="semicircle_panel" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="qwt_tab">
+         <attribute name="title">
+          <string>统计图</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout_9" rowstretch="1,50">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QWidget" name="set_wid" native="true">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(64, 67, 74);</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QWidget" name="chart_wid" native="true">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(64, 67, 74);</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_10" rowstretch="1,1" columnstretch="1,1">
+             <property name="leftMargin">
+              <number>15</number>
+             </property>
+             <property name="topMargin">
+              <number>15</number>
+             </property>
+             <property name="rightMargin">
+              <number>15</number>
+             </property>
+             <property name="bottomMargin">
+              <number>15</number>
+             </property>
+             <property name="spacing">
+              <number>15</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="HandleLineChart" name="handle_line_chart" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="HandlePieChart" name="handle_pie_chart" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="HandleScatterChart" name="handle_scatter_chart" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="HandleBarChart" name="handle_bar_chart" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="animation_tab">
+         <property name="styleSheet">
+          <string notr="true">
+#animation_tab{
+	
+	border-image: url(:/CustomControls/picture/background.png);
+}
+
+
+</string>
+         </property>
+         <attribute name="title">
+          <string>动画</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout_7">
+          <item row="0" column="0" rowspan="2" colspan="2">
+           <widget class="RXTurnPan" name="turn_pan" native="true"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="QWidget" name="widget_3" native="true"/>
+          </item>
+          <item row="1" column="2">
+           <widget class="QWidget" name="widget_9" native="true"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QWidget" name="widget_10" native="true"/>
+          </item>
+          <item row="2" column="1">
+           <widget class="QWidget" name="widget_11" native="true"/>
+          </item>
+          <item row="2" column="2">
+           <widget class="QWidget" name="widget_12" native="true"/>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="otherbutton_tab">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <attribute name="title">
+          <string>按钮</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout_12">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QWidget" name="btns_wid" native="true">
+            <property name="styleSheet">
+             <string notr="true">
+#btns_wid
+{
+
+border-image: url(:/CustomControls/picture/background.png);
+
+
+}
+
+
+</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_13" rowstretch="10,10,10,10" columnstretch="10,10,10,10">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <property name="spacing">
+              <number>1</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="QWidget" name="btn_controller_1_wid" native="true">
+               <widget class="QWidget" name="vessal_widget" native="true">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>40</y>
+                  <width>131</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>1</width>
+                  <height>1</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="2,18,2">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QWidget" name="vessel_left_blank_wid" native="true">
+                   <property name="minimumSize">
+                    <size>
+                     <width>1</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>100000</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">border-image: url(:/CustomControls/picture/btns_pic/left_check.png);</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="test_drop_menu_btn">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>1</width>
+                     <height>1</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>10000</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="focusPolicy">
+                    <enum>Qt::NoFocus</enum>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton
+{
+color:rgb(255, 255, 255);
+border-image: url(:/CustomControls/picture/btns_pic/mid_check.png);
+}  
+              
+
+</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                   <property name="checked">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QWidget" name="vessel_right_blank_wid" native="true">
+                   <property name="minimumSize">
+                    <size>
+                     <width>1</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>10000</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">border-image: url(:/CustomControls/picture/btns_pic/right_check.png);</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QWidget" name="btn_controller_2_wid" native="true">
+               <layout class="QGridLayout" name="gridLayout_14">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="2">
+              <widget class="QWidget" name="btn_controller_3_wid" native="true"/>
+             </item>
+             <item row="0" column="3">
+              <widget class="QWidget" name="btn_controller_4_wid" native="true"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QWidget" name="btn_controller_5_wid" native="true"/>
+             </item>
+             <item row="1" column="1">
+              <widget class="QWidget" name="btn_controller_6_wid" native="true"/>
+             </item>
+             <item row="1" column="2">
+              <widget class="QWidget" name="btn_controller_7_wid" native="true"/>
+             </item>
+             <item row="1" column="3">
+              <widget class="QWidget" name="btn_controller_8_wid" native="true"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QWidget" name="btn_controller_9_wid" native="true"/>
+             </item>
+             <item row="2" column="1">
+              <widget class="QWidget" name="btn_controller_10_wid" native="true"/>
+             </item>
+             <item row="2" column="2">
+              <widget class="QWidget" name="btn_controller_11_wid" native="true"/>
+             </item>
+             <item row="2" column="3">
+              <widget class="QWidget" name="btn_controller_12_wid" native="true"/>
+             </item>
+             <item row="3" column="0">
+              <widget class="QWidget" name="btn_controller_13_wid" native="true"/>
+             </item>
+             <item row="3" column="1">
+              <widget class="QWidget" name="btn_controller_14_wid" native="true"/>
+             </item>
+             <item row="3" column="2">
+              <widget class="QWidget" name="btn_controller_15_wid" native="true"/>
+             </item>
+             <item row="3" column="3">
+              <widget class="QWidget" name="btn_controller_16_wid" native="true"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="custom_win_tab">
+         <property name="styleSheet">
+          <string notr="true">#custom_win_tab
+{
+	
+	border-image: url(:/CustomControls/picture/background.png);
+}
+
+
+</string>
+         </property>
+         <attribute name="title">
+          <string>软件页面</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout_15" rowstretch="10,7" columnstretch="10,3">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QWidget" name="wid_customwin_0" native="true">
+            <property name="styleSheet">
+             <string notr="true">#wid_customwin_0
+{
+border:0px solid;
+}</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QWidget" name="wid_customwin_1" native="true"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QWidget" name="wid_customwin_2" native="true">
+            <property name="styleSheet">
+             <string notr="true">#wid_customwin_2
+{
+border:0px solid;
+}</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QWidget" name="wid_customwin_3" native="true"/>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="blank_tab">
+         <property name="styleSheet">
+          <string notr="true">
+#blank_tab
+{
+border:0px;
+background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(80, 80, 80, 255));
+}
+
+</string>
+         </property>
+         <attribute name="title">
+          <string>空白页</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout_4" rowstretch="10,20,10" columnstretch="10,20,10">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="1">
+           <spacer name="verticalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>141</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="0">
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>161</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLabel" name="label">
+            <property name="styleSheet">
+             <string notr="true">font: 60pt &quot;宋体&quot;;
+color: rgb(231, 231, 231);
+padding-bottom:50px;</string>
+            </property>
+            <property name="text">
+             <string>欢迎</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>161</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="2" column="1">
+           <spacer name="verticalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>141</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QWidget" name="navigation_wid" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">	
+#navigation_wid
+{
+background-color: rgb(40, 43, 51);
+}</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout" rowstretch="10,10,10,10,10,10,10,90" columnstretch="0">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="7" column="0">
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>1</width>
+          <height>1</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="1" column="0">
+       <widget class="QRadioButton" name="sliderbar_btn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QRadioButton
+{
+font: 14px&quot;宋体&quot;
+}
+
+QRadioButton::indicator{
+   width: 0px;
+   height:0px;
+ border:0px;
+}
+
+QRadioButton::unchecked
+{
+	color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}
+QRadioButton::unchecked:hover
+ {
+    color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}
+QRadioButton::checked
+{	
+   color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>     滑动条</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QRadioButton" name="panel_btn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QRadioButton
+{
+font: 14px&quot;宋体&quot;
+}
+
+QRadioButton::indicator{
+   width: 0px;
+   height:0px;
+ border:0px;
+}
+
+QRadioButton::unchecked
+{
+	color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}
+QRadioButton::unchecked:hover
+ {
+    color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}
+QRadioButton::checked
+{	
+   color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>     仪表盘</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QRadioButton" name="qwt_btn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QRadioButton
+{
+font: 14px&quot;宋体&quot;
+}
+
+QRadioButton::indicator{
+   width: 0px;
+   height:0px;
+ border:0px;
+}
+
+QRadioButton::unchecked
+{
+	color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}
+QRadioButton::unchecked:hover
+ {
+    color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}
+QRadioButton::checked
+{	
+   color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}</string>
+        </property>
+        <property name="text">
+         <string>     统计图</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QRadioButton" name="animation_btn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QRadioButton
+{
+font: 14px&quot;宋体&quot;
+}
+
+QRadioButton::indicator{
+   width: 0px;
+   height:0px;
+ border:0px;
+}
+
+QRadioButton::unchecked
+{
+	color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}
+QRadioButton::unchecked:hover
+ {
+    color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}
+QRadioButton::checked
+{	
+   color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>      动画</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QRadioButton" name="otherbutton_btn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QRadioButton
+{
+font: 14px&quot;宋体&quot;
+}
+
+QRadioButton::indicator{
+   width: 0px;
+   height:0px;
+ border:0px;
+}
+
+QRadioButton::unchecked
+{
+	color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}
+QRadioButton::unchecked:hover
+ {
+    color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}
+QRadioButton::checked
+{	
+   color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>      按钮</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QRadioButton" name="progressbar_btn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QRadioButton
+{
+font: 14px&quot;宋体&quot;
+}
+
+QRadioButton::indicator{
+   width: 0px;
+   height:0px;
+ border:0px;
+}
+
+QRadioButton::unchecked
+{
+	color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}
+QRadioButton::unchecked:hover
+ {
+    color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}
+QRadioButton::checked
+{	
+   color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>     进度条</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QRadioButton" name="custom_win_btn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QRadioButton
+{
+font: 14px&quot;宋体&quot;
+}
+
+QRadioButton::indicator{
+   width: 0px;
+   height:0px;
+ border:0px;
+}
+
+QRadioButton::unchecked
+{
+	color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}
+QRadioButton::unchecked:hover
+ {
+    color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}
+QRadioButton::checked
+{	
+   color: rgb(180,180,180);
+    border:0px;
+	background-color: rgb(40, 43, 51);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>    软件页面</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>CustomSlider</class>
+   <extends>QWidget</extends>
+   <header>CustomSlider.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>DashBoard</class>
+   <extends>QWidget</extends>
+   <header>DashBoard.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RingProgressBar</class>
+   <extends>QWidget</extends>
+   <header>RingProgressBar.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>LinearProgressBar</class>
+   <extends>QWidget</extends>
+   <header>LinearProgressBar.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>WaveProgressBar</class>
+   <extends>QWidget</extends>
+   <header>WaveProgressBar.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RectProgressBar</class>
+   <extends>QWidget</extends>
+   <header>RectProgressBar.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>DoubleHandleSlider</class>
+   <extends>QWidget</extends>
+   <header>DoubleHandleSlider.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>TipSlider</class>
+   <extends>QWidget</extends>
+   <header>TipSlider.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>StripSlider</class>
+   <extends>QWidget</extends>
+   <header>StripSlider.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CustomSliderStyleOne</class>
+   <extends>QWidget</extends>
+   <header>CustomSliderStyleOne.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RXTurnPan</class>
+   <extends>QWidget</extends>
+   <header>RXTurnPan.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CustomSliderStyleTwo</class>
+   <extends>QWidget</extends>
+   <header>CustomSliderStyleTwo.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>StripSliderStyleOne</class>
+   <extends>QWidget</extends>
+   <header>StripSliderStyleOne.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>StripSliderStyleTwo</class>
+   <extends>QWidget</extends>
+   <header>StripSliderStyleTwo.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RectWaveProgressBar</class>
+   <extends>QWidget</extends>
+   <header>RectWaveProgressBar.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>HandleLineChart</class>
+   <extends>QWidget</extends>
+   <header>HandleLineChart.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>HandlePieChart</class>
+   <extends>QWidget</extends>
+   <header>HandlePieChart.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>HandleScatterChart</class>
+   <extends>QWidget</extends>
+   <header>HandleScatterChart.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>HandleBarChart</class>
+   <extends>QWidget</extends>
+   <header>HandleBarChart.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CustomPanel</class>
+   <extends>QWidget</extends>
+   <header>CustomPanel.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>NetSpeedPanel</class>
+   <extends>QWidget</extends>
+   <header>NetSpeedPanel.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>SemiCirclePanel</class>
+   <extends>QWidget</extends>
+   <header>SemiCirclePanel.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="CustomControls.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="ToolsWin">
+      <UniqueIdentifier>{535b9ec5-53fe-4479-9153-418bfd377c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LoginWin">
+      <UniqueIdentifier>{3428f170-75b7-4cfe-aca0-cefe734dd3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ToolsWin\icon">
+      <UniqueIdentifier>{73b579a7-1ee8-4aa2-946b-abeeb6d21c28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="customwin_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClCompile Include="CustomWin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginWin\Panda.h">
+      <Filter>LoginWin</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomWin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ToolsWin\RXToolModeWid.cpp">
+      <Filter>ToolsWin</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolsWin\RXTools.cpp">
+      <Filter>ToolsWin</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginWin\LoginAvatarWid.cpp">
+      <Filter>LoginWin</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginWin\LoginStateWid.cpp">
+      <Filter>LoginWin</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginWin\LoginWin.cpp">
+      <Filter>LoginWin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="ToolsWin\RXToolModeWid.h">
+      <Filter>ToolsWin</Filter>
+    </QtMoc>
+    <QtMoc Include="ToolsWin\RXTools.h">
+      <Filter>ToolsWin</Filter>
+    </QtMoc>
+    <QtMoc Include="LoginWin\LoginAvatarWid.h">
+      <Filter>LoginWin</Filter>
+    </QtMoc>
+    <QtMoc Include="LoginWin\LoginStateWid.h">
+      <Filter>LoginWin</Filter>
+    </QtMoc>
+    <QtMoc Include="LoginWin\LoginWin.h">
+      <Filter>LoginWin</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="ToolsWin\RXToolModeWid.ui">
+      <Filter>ToolsWin</Filter>
+    </QtUic>
+    <QtUic Include="ToolsWin\RXTools.ui">
+      <Filter>ToolsWin</Filter>
+    </QtUic>
+    <QtUic Include="LoginWin\LoginAvatarWid.ui">
+      <Filter>LoginWin</Filter>
+    </QtUic>
+    <QtUic Include="LoginWin\LoginStateWid.ui">
+      <Filter>LoginWin</Filter>
+    </QtUic>
+    <QtUic Include="LoginWin\LoginWin.ui">
+      <Filter>LoginWin</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="ToolsWin\tools_win_resource.qrc">
+      <Filter>ToolsWin</Filter>
+    </QtRcc>
+    <QtRcc Include="LoginWin\panda_chat.qrc">
+      <Filter>LoginWin</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>

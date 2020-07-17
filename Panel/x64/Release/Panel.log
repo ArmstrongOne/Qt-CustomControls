@@ -1,0 +1,17 @@
+﻿  Reading Qt configuration (C:\Qt\Qt5.8.0\5.8\msvc2015_64\bin\qmake.exe)
+  uic CustomPanel.ui
+  uic NetSpeedPanel.ui
+  uic SemiCirclePanel.ui
+  moc SemiCirclePanel.h
+  moc CustomPanel.h
+  moc NetSpeedPanel.h
+  CustomPanel.cpp
+  NetSpeedPanel.cpp
+  Panel.cpp
+  SemiCirclePanel.cpp
+  moc_SemiCirclePanel.cpp
+  moc_CustomPanel.cpp
+  moc_NetSpeedPanel.cpp
+    正在创建库 C:\Users\DELL\Desktop\CustomControls\x64\Release\Panel.lib 和对象 C:\Users\DELL\Desktop\CustomControls\x64\Release\Panel.exp
+  Panel.vcxproj -> C:\Users\DELL\Desktop\CustomControls\x64\Release\Panel.dll
+  Panel.vcxproj -> C:\Users\DELL\Desktop\CustomControls\x64\Release\Panel.pdb (Partial PDB)

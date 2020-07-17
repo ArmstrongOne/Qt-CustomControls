@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="CustomControls">
+    <file>picture/btns_pic/left_check.png</file>
+    <file>picture/btns_pic/mid_check.png</file>
+    <file>picture/btns_pic/right_check.png</file>
+    <file>picture/background.png</file>
+    <file>picture/btns_pic/left_check.png</file>
+    <file>picture/btns_pic/mid_check.png</file>
+    <file>picture/hander.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="CustomSlider">
+      <UniqueIdentifier>{16a4ec9e-f48c-4d8a-9727-c7a15e2461e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoubleHandleSlider">
+      <UniqueIdentifier>{888a0ca6-10d1-45db-8f85-72959db7d703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TipSlider">
+      <UniqueIdentifier>{f2f08ac0-f21f-4288-8608-26766274ffd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StripSlider">
+      <UniqueIdentifier>{6924ffdc-662b-47d6-a401-4f3aa4b67031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomSliderStlyeOne">
+      <UniqueIdentifier>{80107434-db2a-4bac-b590-b1a41d8cbd4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="CustomSliderStyleTwo">
+      <UniqueIdentifier>{e80524c2-db99-45d7-9e78-254589903e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StripSliderStyleOne">
+      <UniqueIdentifier>{94d00244-3dd3-4ec9-9073-e564b459d9b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StripSliderStyleTwo">
+      <UniqueIdentifier>{5c775af1-9b22-4d84-8141-bad4556b6409}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SliderBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomSlider.cpp">
+      <Filter>CustomSlider</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleHandleSlider.cpp">
+      <Filter>DoubleHandleSlider</Filter>
+    </ClCompile>
+    <ClCompile Include="TipSlider.cpp">
+      <Filter>TipSlider</Filter>
+    </ClCompile>
+    <ClCompile Include="StripSlider.cpp">
+      <Filter>StripSlider</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomSliderStyleOne.cpp">
+      <Filter>CustomSliderStlyeOne</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomSliderStyleTwo.cpp">
+      <Filter>CustomSliderStyleTwo</Filter>
+    </ClCompile>
+    <ClCompile Include="StripSliderStyleOne.cpp">
+      <Filter>StripSliderStyleOne</Filter>
+    </ClCompile>
+    <ClCompile Include="StripSliderStyleTwo.cpp">
+      <Filter>StripSliderStyleTwo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sliderbar_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="CustomSlider.h">
+      <Filter>CustomSlider</Filter>
+    </QtMoc>
+    <QtMoc Include="DoubleHandleSlider.h">
+      <Filter>DoubleHandleSlider</Filter>
+    </QtMoc>
+    <QtMoc Include="SliderBar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="TipSlider.h">
+      <Filter>TipSlider</Filter>
+    </QtMoc>
+    <QtMoc Include="StripSlider.h">
+      <Filter>StripSlider</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomSliderStyleOne.h">
+      <Filter>CustomSliderStlyeOne</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomSliderStyleTwo.h">
+      <Filter>CustomSliderStyleTwo</Filter>
+    </QtMoc>
+    <QtMoc Include="StripSliderStyleOne.h">
+      <Filter>StripSliderStyleOne</Filter>
+    </QtMoc>
+    <QtMoc Include="StripSliderStyleTwo.h">
+      <Filter>StripSliderStyleTwo</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="CustomSlider.ui">
+      <Filter>CustomSlider</Filter>
+    </QtUic>
+    <QtUic Include="DoubleHandleSlider.ui">
+      <Filter>DoubleHandleSlider</Filter>
+    </QtUic>
+    <QtUic Include="TipSlider.ui">
+      <Filter>TipSlider</Filter>
+    </QtUic>
+    <QtUic Include="StripSlider.ui">
+      <Filter>StripSlider</Filter>
+    </QtUic>
+    <QtUic Include="CustomSliderStyleOne.ui">
+      <Filter>CustomSliderStlyeOne</Filter>
+    </QtUic>
+    <QtUic Include="CustomSliderStyleTwo.ui">
+      <Filter>CustomSliderStyleTwo</Filter>
+    </QtUic>
+    <QtUic Include="StripSliderStyleOne.ui">
+      <Filter>StripSliderStyleOne</Filter>
+    </QtUic>
+    <QtUic Include="StripSliderStyleTwo.ui">
+      <Filter>StripSliderStyleTwo</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>

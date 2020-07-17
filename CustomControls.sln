@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CustomControls", "CustomControls\CustomControls.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProgressBar", "ProgressBar\ProgressBar.vcxproj", "{3079FEEA-A139-47EF-A6B9-CF31B21F83F9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SliderBar", "SliderBar\SliderBar.vcxproj", "{5AE37151-4EDA-4E5E-920D-EC3B31716442}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Animation", "Animation\Animation.vcxproj", "{8B7EEBC6-6497-4148-B7AE-071B9F8F6F70}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CommonCharts", "CommonCharts\CommonCharts.vcxproj", "{21770D88-729E-44E4-A33B-FC785D2F1C0A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Panel", "Panel\Panel.vcxproj", "{B3D720A6-DC8D-4EB7-854C-BD3B648A0FE8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BtnControls", "BtnControls\BtnControls.vcxproj", "{8671BA6F-84AD-4A71-AECE-640B1207BDD7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CustomWin", "CustomWin\CustomWin.vcxproj", "{7D1F420C-E290-4AFF-AA84-B0C5712BC298}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.ActiveCfg = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.Build.0 = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.ActiveCfg = Release|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.Build.0 = Release|x64
+		{3079FEEA-A139-47EF-A6B9-CF31B21F83F9}.Debug|x64.ActiveCfg = Debug|x64
+		{3079FEEA-A139-47EF-A6B9-CF31B21F83F9}.Debug|x64.Build.0 = Debug|x64
+		{3079FEEA-A139-47EF-A6B9-CF31B21F83F9}.Release|x64.ActiveCfg = Release|x64
+		{3079FEEA-A139-47EF-A6B9-CF31B21F83F9}.Release|x64.Build.0 = Release|x64
+		{5AE37151-4EDA-4E5E-920D-EC3B31716442}.Debug|x64.ActiveCfg = Debug|x64
+		{5AE37151-4EDA-4E5E-920D-EC3B31716442}.Debug|x64.Build.0 = Debug|x64
+		{5AE37151-4EDA-4E5E-920D-EC3B31716442}.Release|x64.ActiveCfg = Release|x64
+		{5AE37151-4EDA-4E5E-920D-EC3B31716442}.Release|x64.Build.0 = Release|x64
+		{8B7EEBC6-6497-4148-B7AE-071B9F8F6F70}.Debug|x64.ActiveCfg = Debug|x64
+		{8B7EEBC6-6497-4148-B7AE-071B9F8F6F70}.Debug|x64.Build.0 = Debug|x64
+		{8B7EEBC6-6497-4148-B7AE-071B9F8F6F70}.Release|x64.ActiveCfg = Release|x64
+		{8B7EEBC6-6497-4148-B7AE-071B9F8F6F70}.Release|x64.Build.0 = Release|x64
+		{21770D88-729E-44E4-A33B-FC785D2F1C0A}.Debug|x64.ActiveCfg = Debug|x64
+		{21770D88-729E-44E4-A33B-FC785D2F1C0A}.Debug|x64.Build.0 = Debug|x64
+		{21770D88-729E-44E4-A33B-FC785D2F1C0A}.Release|x64.ActiveCfg = Release|x64
+		{21770D88-729E-44E4-A33B-FC785D2F1C0A}.Release|x64.Build.0 = Release|x64
+		{B3D720A6-DC8D-4EB7-854C-BD3B648A0FE8}.Debug|x64.ActiveCfg = Debug|x64
+		{B3D720A6-DC8D-4EB7-854C-BD3B648A0FE8}.Debug|x64.Build.0 = Debug|x64
+		{B3D720A6-DC8D-4EB7-854C-BD3B648A0FE8}.Release|x64.ActiveCfg = Release|x64
+		{B3D720A6-DC8D-4EB7-854C-BD3B648A0FE8}.Release|x64.Build.0 = Release|x64
+		{8671BA6F-84AD-4A71-AECE-640B1207BDD7}.Debug|x64.ActiveCfg = Debug|x64
+		{8671BA6F-84AD-4A71-AECE-640B1207BDD7}.Debug|x64.Build.0 = Debug|x64
+		{8671BA6F-84AD-4A71-AECE-640B1207BDD7}.Release|x64.ActiveCfg = Release|x64
+		{8671BA6F-84AD-4A71-AECE-640B1207BDD7}.Release|x64.Build.0 = Release|x64
+		{7D1F420C-E290-4AFF-AA84-B0C5712BC298}.Debug|x64.ActiveCfg = Debug|x64
+		{7D1F420C-E290-4AFF-AA84-B0C5712BC298}.Debug|x64.Build.0 = Debug|x64
+		{7D1F420C-E290-4AFF-AA84-B0C5712BC298}.Release|x64.ActiveCfg = Release|x64
+		{7D1F420C-E290-4AFF-AA84-B0C5712BC298}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
