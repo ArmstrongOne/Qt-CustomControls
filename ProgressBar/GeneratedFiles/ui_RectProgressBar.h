@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'RectProgressBar.ui'
 **
-** Created by: Qt User Interface Compiler version 5.8.0
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,11 +10,8 @@
 #define UI_RECTPROGRESSBAR_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QGridLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -28,15 +25,15 @@ public:
     void setupUi(QWidget *RectProgressBar)
     {
         if (RectProgressBar->objectName().isEmpty())
-            RectProgressBar->setObjectName(QStringLiteral("RectProgressBar"));
+            RectProgressBar->setObjectName(QString::fromUtf8("RectProgressBar"));
         RectProgressBar->resize(202, 562);
         rect_progressbar_layout = new QGridLayout(RectProgressBar);
         rect_progressbar_layout->setSpacing(0);
         rect_progressbar_layout->setContentsMargins(11, 11, 11, 11);
-        rect_progressbar_layout->setObjectName(QStringLiteral("rect_progressbar_layout"));
+        rect_progressbar_layout->setObjectName(QString::fromUtf8("rect_progressbar_layout"));
         rect_progressbar_layout->setContentsMargins(0, 0, 0, 0);
         progressbar_wid = new QWidget(RectProgressBar);
-        progressbar_wid->setObjectName(QStringLiteral("progressbar_wid"));
+        progressbar_wid->setObjectName(QString::fromUtf8("progressbar_wid"));
         QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -55,7 +52,7 @@ public:
 
     void retranslateUi(QWidget *RectProgressBar)
     {
-        RectProgressBar->setWindowTitle(QApplication::translate("RectProgressBar", "RectProgressBar", Q_NULLPTR));
+        RectProgressBar->setWindowTitle(QCoreApplication::translate("RectProgressBar", "RectProgressBar", nullptr));
     } // retranslateUi
 
 };

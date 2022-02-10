@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'TipSlider.ui'
 **
-** Created by: Qt User Interface Compiler version 5.8.0
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,10 +10,7 @@
 #define UI_TIPSLIDER_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QWidget>
 #include "SliderBar.h"
 
@@ -28,10 +25,10 @@ public:
     void setupUi(QWidget *TipSlider)
     {
         if (TipSlider->objectName().isEmpty())
-            TipSlider->setObjectName(QStringLiteral("TipSlider"));
+            TipSlider->setObjectName(QString::fromUtf8("TipSlider"));
         TipSlider->resize(291, 486);
         hander_lab = new QRoundedLabel(TipSlider);
-        hander_lab->setObjectName(QStringLiteral("hander_lab"));
+        hander_lab->setObjectName(QString::fromUtf8("hander_lab"));
         hander_lab->setGeometry(QRect(130, 80, 91, 81));
         QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
         sizePolicy.setHorizontalStretch(0);
@@ -39,7 +36,7 @@ public:
         sizePolicy.setHeightForWidth(hander_lab->sizePolicy().hasHeightForWidth());
         hander_lab->setSizePolicy(sizePolicy);
         tip_lab = new QRoundedLabel(TipSlider);
-        tip_lab->setObjectName(QStringLiteral("tip_lab"));
+        tip_lab->setObjectName(QString::fromUtf8("tip_lab"));
         tip_lab->setGeometry(QRect(100, 280, 54, 81));
         sizePolicy.setHeightForWidth(tip_lab->sizePolicy().hasHeightForWidth());
         tip_lab->setSizePolicy(sizePolicy);
@@ -51,7 +48,7 @@ public:
 
     void retranslateUi(QWidget *TipSlider)
     {
-        TipSlider->setWindowTitle(QApplication::translate("TipSlider", "TipSlider", Q_NULLPTR));
+        TipSlider->setWindowTitle(QCoreApplication::translate("TipSlider", "TipSlider", nullptr));
         hander_lab->setText(QString());
         tip_lab->setText(QString());
     } // retranslateUi

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'StripSlider.ui'
 **
-** Created by: Qt User Interface Compiler version 5.8.0
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,10 +10,7 @@
 #define UI_STRIPSLIDER_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QWidget>
 #include "SliderBar.h"
 
@@ -27,10 +24,10 @@ public:
     void setupUi(QWidget *StripSlider)
     {
         if (StripSlider->objectName().isEmpty())
-            StripSlider->setObjectName(QStringLiteral("StripSlider"));
+            StripSlider->setObjectName(QString::fromUtf8("StripSlider"));
         StripSlider->resize(161, 525);
         hander_lab = new QRoundedLabel(StripSlider);
-        hander_lab->setObjectName(QStringLiteral("hander_lab"));
+        hander_lab->setObjectName(QString::fromUtf8("hander_lab"));
         hander_lab->setGeometry(QRect(40, 150, 91, 81));
         QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
         sizePolicy.setHorizontalStretch(0);
@@ -45,7 +42,7 @@ public:
 
     void retranslateUi(QWidget *StripSlider)
     {
-        StripSlider->setWindowTitle(QApplication::translate("StripSlider", "StripSlider", Q_NULLPTR));
+        StripSlider->setWindowTitle(QCoreApplication::translate("StripSlider", "StripSlider", nullptr));
         hander_lab->setText(QString());
     } // retranslateUi
 

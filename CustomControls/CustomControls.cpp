@@ -1,5 +1,6 @@
 #include "CustomControls.h"
 #include <QDebug>
+#include <QTabBar>
 #include<qmath.h>
 #pragma execution_character_set("utf-8")
 CustomControls::CustomControls(QWidget *parent)

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'LinearProgressBar.ui'
 **
-** Created by: Qt User Interface Compiler version 5.8.0
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,10 +10,7 @@
 #define UI_LINEARPROGRESSBAR_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QWidget>
 
@@ -27,10 +24,10 @@ public:
     void setupUi(QWidget *LinearProgressBar)
     {
         if (LinearProgressBar->objectName().isEmpty())
-            LinearProgressBar->setObjectName(QStringLiteral("LinearProgressBar"));
+            LinearProgressBar->setObjectName(QString::fromUtf8("LinearProgressBar"));
         LinearProgressBar->resize(400, 300);
         text_lab = new QLabel(LinearProgressBar);
-        text_lab->setObjectName(QStringLiteral("text_lab"));
+        text_lab->setObjectName(QString::fromUtf8("text_lab"));
         text_lab->setGeometry(QRect(80, 70, 211, 141));
         text_lab->setAlignment(Qt::AlignCenter);
 
@@ -41,7 +38,7 @@ public:
 
     void retranslateUi(QWidget *LinearProgressBar)
     {
-        LinearProgressBar->setWindowTitle(QApplication::translate("LinearProgressBar", "LinearProgressBar", Q_NULLPTR));
+        LinearProgressBar->setWindowTitle(QCoreApplication::translate("LinearProgressBar", "LinearProgressBar", nullptr));
         text_lab->setText(QString());
     } // retranslateUi
 

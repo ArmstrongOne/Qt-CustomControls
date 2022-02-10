@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'HandlePieChart.ui'
 **
-** Created by: Qt User Interface Compiler version 5.8.0
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,11 +10,8 @@
 #define UI_HANDLEPIECHART_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QGridLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QWidget>
 #include "QChartView.h"
 
@@ -29,15 +26,15 @@ public:
     void setupUi(QWidget *HandlePieChart)
     {
         if (HandlePieChart->objectName().isEmpty())
-            HandlePieChart->setObjectName(QStringLiteral("HandlePieChart"));
+            HandlePieChart->setObjectName(QString::fromUtf8("HandlePieChart"));
         HandlePieChart->resize(400, 300);
         gridLayout = new QGridLayout(HandlePieChart);
         gridLayout->setSpacing(0);
         gridLayout->setContentsMargins(11, 11, 11, 11);
-        gridLayout->setObjectName(QStringLiteral("gridLayout"));
+        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout->setContentsMargins(0, 0, 0, 0);
         qchart_view = new QChartView(HandlePieChart);
-        qchart_view->setObjectName(QStringLiteral("qchart_view"));
+        qchart_view->setObjectName(QString::fromUtf8("qchart_view"));
 
         gridLayout->addWidget(qchart_view, 0, 0, 1, 1);
 
@@ -49,7 +46,7 @@ public:
 
     void retranslateUi(QWidget *HandlePieChart)
     {
-        HandlePieChart->setWindowTitle(QApplication::translate("HandlePieChart", "HandlePieChart", Q_NULLPTR));
+        HandlePieChart->setWindowTitle(QCoreApplication::translate("HandlePieChart", "HandlePieChart", nullptr));
     } // retranslateUi
 
 };

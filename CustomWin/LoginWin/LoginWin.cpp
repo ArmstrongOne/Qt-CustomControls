@@ -3,10 +3,11 @@
 #include <QDesktopWidget>
 #include"LoginAvatarWid.h"
 #include"LoginStateWid.h"
-#include<QPainter>
+#include <QPainter>
 #include <QMouseEvent>
 #include <qmath.h>
-#include<QDebug>
+#include <QDebug>
+#include <QPainterPath>
 LoginWin::LoginWin(QWidget *parent)
 	: QWidget(parent)
 {

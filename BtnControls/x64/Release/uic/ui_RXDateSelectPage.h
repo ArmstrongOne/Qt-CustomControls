@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'RXDateSelectPage.ui'
 **
-** Created by: Qt User Interface Compiler version 5.8.0
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,12 +10,9 @@
 #define UI_RXDATESELECTPAGE_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHBoxLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSpacerItem>
@@ -78,60 +75,60 @@ public:
     void setupUi(QWidget *RXDateSelectPage)
     {
         if (RXDateSelectPage->objectName().isEmpty())
-            RXDateSelectPage->setObjectName(QStringLiteral("RXDateSelectPage"));
-        RXDateSelectPage->resize(323, 283);
+            RXDateSelectPage->setObjectName(QString::fromUtf8("RXDateSelectPage"));
+        RXDateSelectPage->resize(181, 147);
         QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(RXDateSelectPage->sizePolicy().hasHeightForWidth());
         RXDateSelectPage->setSizePolicy(sizePolicy);
-        RXDateSelectPage->setStyleSheet(QStringLiteral("outline:none;"));
+        RXDateSelectPage->setStyleSheet(QString::fromUtf8("outline:none;"));
         verticalLayout_6 = new QVBoxLayout(RXDateSelectPage);
         verticalLayout_6->setSpacing(0);
         verticalLayout_6->setContentsMargins(11, 11, 11, 11);
-        verticalLayout_6->setObjectName(QStringLiteral("verticalLayout_6"));
+        verticalLayout_6->setObjectName(QString::fromUtf8("verticalLayout_6"));
         verticalLayout_6->setContentsMargins(0, 0, 0, 0);
         widget = new QWidget(RXDateSelectPage);
-        widget->setObjectName(QStringLiteral("widget"));
+        widget->setObjectName(QString::fromUtf8("widget"));
         sizePolicy.setHeightForWidth(widget->sizePolicy().hasHeightForWidth());
         widget->setSizePolicy(sizePolicy);
-        widget->setStyleSheet(QStringLiteral("border:0px;"));
+        widget->setStyleSheet(QString::fromUtf8("border:0px;"));
         verticalLayout_3 = new QVBoxLayout(widget);
         verticalLayout_3->setSpacing(0);
         verticalLayout_3->setContentsMargins(11, 11, 11, 11);
-        verticalLayout_3->setObjectName(QStringLiteral("verticalLayout_3"));
+        verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
         verticalLayout_3->setContentsMargins(0, 0, 0, 0);
         data_show_mode = new QWidget(widget);
-        data_show_mode->setObjectName(QStringLiteral("data_show_mode"));
+        data_show_mode->setObjectName(QString::fromUtf8("data_show_mode"));
         sizePolicy.setHeightForWidth(data_show_mode->sizePolicy().hasHeightForWidth());
         data_show_mode->setSizePolicy(sizePolicy);
-        data_show_mode->setStyleSheet(QStringLiteral("background-color: rgb(30,30,30);"));
+        data_show_mode->setStyleSheet(QString::fromUtf8("background-color: rgb(30,30,30);"));
         horizontalLayout = new QHBoxLayout(data_show_mode);
         horizontalLayout->setSpacing(0);
         horizontalLayout->setContentsMargins(11, 11, 11, 11);
-        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
         year_mode = new QWidget(data_show_mode);
-        year_mode->setObjectName(QStringLiteral("year_mode"));
+        year_mode->setObjectName(QString::fromUtf8("year_mode"));
         sizePolicy.setHeightForWidth(year_mode->sizePolicy().hasHeightForWidth());
         year_mode->setSizePolicy(sizePolicy);
         verticalLayout = new QVBoxLayout(year_mode);
         verticalLayout->setSpacing(0);
         verticalLayout->setContentsMargins(11, 11, 11, 11);
-        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
         last_year = new QLabel(year_mode);
-        last_year->setObjectName(QStringLiteral("last_year"));
-        last_year->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+        last_year->setObjectName(QString::fromUtf8("last_year"));
+        last_year->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         last_year->setAlignment(Qt::AlignCenter);
 
         verticalLayout->addWidget(last_year);
 
         cur_year = new QLabel(year_mode);
-        cur_year->setObjectName(QStringLiteral("cur_year"));
+        cur_year->setObjectName(QString::fromUtf8("cur_year"));
         sizePolicy.setHeightForWidth(cur_year->sizePolicy().hasHeightForWidth());
         cur_year->setSizePolicy(sizePolicy);
-        cur_year->setStyleSheet(QLatin1String("color: rgb(0, 255, 255);\n"
+        cur_year->setStyleSheet(QString::fromUtf8("color: rgb(0, 255, 255);\n"
 "background-color: rgb(50, 50, 50);\n"
 ""));
         cur_year->setAlignment(Qt::AlignCenter);
@@ -139,8 +136,8 @@ public:
         verticalLayout->addWidget(cur_year);
 
         next_year = new QLabel(year_mode);
-        next_year->setObjectName(QStringLiteral("next_year"));
-        next_year->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+        next_year->setObjectName(QString::fromUtf8("next_year"));
+        next_year->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         next_year->setAlignment(Qt::AlignCenter);
 
         verticalLayout->addWidget(next_year);
@@ -152,66 +149,66 @@ public:
         horizontalLayout->addWidget(year_mode);
 
         widget_2 = new QWidget(data_show_mode);
-        widget_2->setObjectName(QStringLiteral("widget_2"));
-        widget_2->setStyleSheet(QStringLiteral("background-color: rgb(150, 150, 150);"));
+        widget_2->setObjectName(QString::fromUtf8("widget_2"));
+        widget_2->setStyleSheet(QString::fromUtf8("background-color: rgb(150, 150, 150);"));
         gridLayout_2 = new QGridLayout(widget_2);
         gridLayout_2->setSpacing(6);
         gridLayout_2->setContentsMargins(11, 11, 11, 11);
-        gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
+        gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
         gridLayout_2->setHorizontalSpacing(2);
         gridLayout_2->setVerticalSpacing(0);
         gridLayout_2->setContentsMargins(0, 0, 0, 0);
         widget_4 = new QWidget(widget_2);
-        widget_4->setObjectName(QStringLiteral("widget_4"));
+        widget_4->setObjectName(QString::fromUtf8("widget_4"));
         sizePolicy.setHeightForWidth(widget_4->sizePolicy().hasHeightForWidth());
         widget_4->setSizePolicy(sizePolicy);
         widget_4->setMinimumSize(QSize(1, 1));
-        widget_4->setStyleSheet(QStringLiteral("background-color: rgb(30, 30, 30);"));
+        widget_4->setStyleSheet(QString::fromUtf8("background-color: rgb(30, 30, 30);"));
 
         gridLayout_2->addWidget(widget_4, 0, 0, 1, 1);
 
         widget_7 = new QWidget(widget_2);
-        widget_7->setObjectName(QStringLiteral("widget_7"));
+        widget_7->setObjectName(QString::fromUtf8("widget_7"));
         sizePolicy.setHeightForWidth(widget_7->sizePolicy().hasHeightForWidth());
         widget_7->setSizePolicy(sizePolicy);
         widget_7->setMinimumSize(QSize(1, 1));
-        widget_7->setStyleSheet(QStringLiteral("background-color: rgb(30, 30, 30);"));
+        widget_7->setStyleSheet(QString::fromUtf8("background-color: rgb(30, 30, 30);"));
 
         gridLayout_2->addWidget(widget_7, 0, 1, 1, 1);
 
         widget_5 = new QWidget(widget_2);
-        widget_5->setObjectName(QStringLiteral("widget_5"));
+        widget_5->setObjectName(QString::fromUtf8("widget_5"));
         sizePolicy.setHeightForWidth(widget_5->sizePolicy().hasHeightForWidth());
         widget_5->setSizePolicy(sizePolicy);
         widget_5->setMinimumSize(QSize(1, 1));
-        widget_5->setStyleSheet(QStringLiteral("background-color: rgb(50, 50, 50);"));
+        widget_5->setStyleSheet(QString::fromUtf8("background-color: rgb(50, 50, 50);"));
 
         gridLayout_2->addWidget(widget_5, 1, 0, 1, 1);
 
         widget_8 = new QWidget(widget_2);
-        widget_8->setObjectName(QStringLiteral("widget_8"));
+        widget_8->setObjectName(QString::fromUtf8("widget_8"));
         sizePolicy.setHeightForWidth(widget_8->sizePolicy().hasHeightForWidth());
         widget_8->setSizePolicy(sizePolicy);
         widget_8->setMinimumSize(QSize(1, 1));
-        widget_8->setStyleSheet(QStringLiteral("background-color: rgb(50, 50, 50);"));
+        widget_8->setStyleSheet(QString::fromUtf8("background-color: rgb(50, 50, 50);"));
 
         gridLayout_2->addWidget(widget_8, 1, 1, 1, 1);
 
         widget_6 = new QWidget(widget_2);
-        widget_6->setObjectName(QStringLiteral("widget_6"));
+        widget_6->setObjectName(QString::fromUtf8("widget_6"));
         sizePolicy.setHeightForWidth(widget_6->sizePolicy().hasHeightForWidth());
         widget_6->setSizePolicy(sizePolicy);
         widget_6->setMinimumSize(QSize(1, 1));
-        widget_6->setStyleSheet(QStringLiteral("background-color: rgb(30, 30, 30);"));
+        widget_6->setStyleSheet(QString::fromUtf8("background-color: rgb(30, 30, 30);"));
 
         gridLayout_2->addWidget(widget_6, 2, 0, 1, 1);
 
         widget_9 = new QWidget(widget_2);
-        widget_9->setObjectName(QStringLiteral("widget_9"));
+        widget_9->setObjectName(QString::fromUtf8("widget_9"));
         sizePolicy.setHeightForWidth(widget_9->sizePolicy().hasHeightForWidth());
         widget_9->setSizePolicy(sizePolicy);
         widget_9->setMinimumSize(QSize(1, 1));
-        widget_9->setStyleSheet(QStringLiteral("background-color: rgb(30, 30, 30);"));
+        widget_9->setStyleSheet(QString::fromUtf8("background-color: rgb(30, 30, 30);"));
 
         gridLayout_2->addWidget(widget_9, 2, 1, 1, 1);
 
@@ -225,26 +222,26 @@ public:
         horizontalLayout->addWidget(widget_2);
 
         month_mode = new QWidget(data_show_mode);
-        month_mode->setObjectName(QStringLiteral("month_mode"));
+        month_mode->setObjectName(QString::fromUtf8("month_mode"));
         sizePolicy.setHeightForWidth(month_mode->sizePolicy().hasHeightForWidth());
         month_mode->setSizePolicy(sizePolicy);
         verticalLayout_2 = new QVBoxLayout(month_mode);
         verticalLayout_2->setSpacing(0);
         verticalLayout_2->setContentsMargins(11, 11, 11, 11);
-        verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
+        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         verticalLayout_2->setContentsMargins(0, 0, 0, 0);
         last_month = new QLabel(month_mode);
-        last_month->setObjectName(QStringLiteral("last_month"));
-        last_month->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+        last_month->setObjectName(QString::fromUtf8("last_month"));
+        last_month->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         last_month->setAlignment(Qt::AlignCenter);
 
         verticalLayout_2->addWidget(last_month);
 
         cur_month = new QLabel(month_mode);
-        cur_month->setObjectName(QStringLiteral("cur_month"));
+        cur_month->setObjectName(QString::fromUtf8("cur_month"));
         sizePolicy.setHeightForWidth(cur_month->sizePolicy().hasHeightForWidth());
         cur_month->setSizePolicy(sizePolicy);
-        cur_month->setStyleSheet(QLatin1String("background-color: rgb(50, 50, 50);\n"
+        cur_month->setStyleSheet(QString::fromUtf8("background-color: rgb(50, 50, 50);\n"
 "color: rgb(0, 255, 255);\n"
 ""));
         cur_month->setAlignment(Qt::AlignCenter);
@@ -252,8 +249,8 @@ public:
         verticalLayout_2->addWidget(cur_month);
 
         next_month = new QLabel(month_mode);
-        next_month->setObjectName(QStringLiteral("next_month"));
-        next_month->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+        next_month->setObjectName(QString::fromUtf8("next_month"));
+        next_month->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         next_month->setAlignment(Qt::AlignCenter);
 
         verticalLayout_2->addWidget(next_month);
@@ -265,54 +262,54 @@ public:
         horizontalLayout->addWidget(month_mode);
 
         widget_3 = new QWidget(data_show_mode);
-        widget_3->setObjectName(QStringLiteral("widget_3"));
-        widget_3->setStyleSheet(QStringLiteral("background-color: rgb(150, 150, 150);"));
+        widget_3->setObjectName(QString::fromUtf8("widget_3"));
+        widget_3->setStyleSheet(QString::fromUtf8("background-color: rgb(150, 150, 150);"));
         gridLayout_3 = new QGridLayout(widget_3);
         gridLayout_3->setSpacing(6);
         gridLayout_3->setContentsMargins(11, 11, 11, 11);
-        gridLayout_3->setObjectName(QStringLiteral("gridLayout_3"));
+        gridLayout_3->setObjectName(QString::fromUtf8("gridLayout_3"));
         gridLayout_3->setHorizontalSpacing(2);
         gridLayout_3->setVerticalSpacing(0);
         gridLayout_3->setContentsMargins(0, 0, 0, 0);
         widget_10 = new QWidget(widget_3);
-        widget_10->setObjectName(QStringLiteral("widget_10"));
+        widget_10->setObjectName(QString::fromUtf8("widget_10"));
         widget_10->setMinimumSize(QSize(1, 1));
-        widget_10->setStyleSheet(QStringLiteral("background-color: rgb(30, 30, 30);"));
+        widget_10->setStyleSheet(QString::fromUtf8("background-color: rgb(30, 30, 30);"));
 
         gridLayout_3->addWidget(widget_10, 0, 0, 1, 1);
 
         widget_11 = new QWidget(widget_3);
-        widget_11->setObjectName(QStringLiteral("widget_11"));
+        widget_11->setObjectName(QString::fromUtf8("widget_11"));
         widget_11->setMinimumSize(QSize(1, 1));
-        widget_11->setStyleSheet(QStringLiteral("background-color: rgb(30, 30, 30);"));
+        widget_11->setStyleSheet(QString::fromUtf8("background-color: rgb(30, 30, 30);"));
 
         gridLayout_3->addWidget(widget_11, 0, 1, 1, 1);
 
         widget_12 = new QWidget(widget_3);
-        widget_12->setObjectName(QStringLiteral("widget_12"));
+        widget_12->setObjectName(QString::fromUtf8("widget_12"));
         widget_12->setMinimumSize(QSize(1, 1));
-        widget_12->setStyleSheet(QStringLiteral("background-color: rgb(50, 50, 50);"));
+        widget_12->setStyleSheet(QString::fromUtf8("background-color: rgb(50, 50, 50);"));
 
         gridLayout_3->addWidget(widget_12, 1, 0, 1, 1);
 
         widget_13 = new QWidget(widget_3);
-        widget_13->setObjectName(QStringLiteral("widget_13"));
+        widget_13->setObjectName(QString::fromUtf8("widget_13"));
         widget_13->setMinimumSize(QSize(1, 1));
-        widget_13->setStyleSheet(QStringLiteral("background-color: rgb(50, 50, 50);"));
+        widget_13->setStyleSheet(QString::fromUtf8("background-color: rgb(50, 50, 50);"));
 
         gridLayout_3->addWidget(widget_13, 1, 1, 1, 1);
 
         widget_14 = new QWidget(widget_3);
-        widget_14->setObjectName(QStringLiteral("widget_14"));
+        widget_14->setObjectName(QString::fromUtf8("widget_14"));
         widget_14->setMinimumSize(QSize(1, 1));
-        widget_14->setStyleSheet(QStringLiteral("background-color: rgb(30, 30, 30);"));
+        widget_14->setStyleSheet(QString::fromUtf8("background-color: rgb(30, 30, 30);"));
 
         gridLayout_3->addWidget(widget_14, 2, 0, 1, 1);
 
         widget_16 = new QWidget(widget_3);
-        widget_16->setObjectName(QStringLiteral("widget_16"));
+        widget_16->setObjectName(QString::fromUtf8("widget_16"));
         widget_16->setMinimumSize(QSize(1, 1));
-        widget_16->setStyleSheet(QStringLiteral("background-color: rgb(30, 30, 30);"));
+        widget_16->setStyleSheet(QString::fromUtf8("background-color: rgb(30, 30, 30);"));
 
         gridLayout_3->addWidget(widget_16, 2, 1, 1, 1);
 
@@ -326,34 +323,34 @@ public:
         horizontalLayout->addWidget(widget_3);
 
         day_mode = new QWidget(data_show_mode);
-        day_mode->setObjectName(QStringLiteral("day_mode"));
+        day_mode->setObjectName(QString::fromUtf8("day_mode"));
         sizePolicy.setHeightForWidth(day_mode->sizePolicy().hasHeightForWidth());
         day_mode->setSizePolicy(sizePolicy);
         day_mode_layout = new QVBoxLayout(day_mode);
         day_mode_layout->setSpacing(0);
         day_mode_layout->setContentsMargins(11, 11, 11, 11);
-        day_mode_layout->setObjectName(QStringLiteral("day_mode_layout"));
+        day_mode_layout->setObjectName(QString::fromUtf8("day_mode_layout"));
         day_mode_layout->setContentsMargins(0, 0, 0, 0);
         last_day = new QLabel(day_mode);
-        last_day->setObjectName(QStringLiteral("last_day"));
-        last_day->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+        last_day->setObjectName(QString::fromUtf8("last_day"));
+        last_day->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         last_day->setAlignment(Qt::AlignCenter);
 
         day_mode_layout->addWidget(last_day);
 
         cur_day = new QLabel(day_mode);
-        cur_day->setObjectName(QStringLiteral("cur_day"));
+        cur_day->setObjectName(QString::fromUtf8("cur_day"));
         sizePolicy.setHeightForWidth(cur_day->sizePolicy().hasHeightForWidth());
         cur_day->setSizePolicy(sizePolicy);
-        cur_day->setStyleSheet(QLatin1String("color: rgb(0, 255, 255);\n"
+        cur_day->setStyleSheet(QString::fromUtf8("color: rgb(0, 255, 255);\n"
 "background-color: rgb(50, 50, 50);"));
         cur_day->setAlignment(Qt::AlignCenter);
 
         day_mode_layout->addWidget(cur_day);
 
         next_day = new QLabel(day_mode);
-        next_day->setObjectName(QStringLiteral("next_day"));
-        next_day->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+        next_day->setObjectName(QString::fromUtf8("next_day"));
+        next_day->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
         next_day->setAlignment(Qt::AlignCenter);
 
         day_mode_layout->addWidget(next_day);
@@ -377,14 +374,14 @@ public:
         verticalLayout_6->addWidget(widget);
 
         btn_group = new QWidget(RXDateSelectPage);
-        btn_group->setObjectName(QStringLiteral("btn_group"));
+        btn_group->setObjectName(QString::fromUtf8("btn_group"));
         sizePolicy.setHeightForWidth(btn_group->sizePolicy().hasHeightForWidth());
         btn_group->setSizePolicy(sizePolicy);
-        btn_group->setStyleSheet(QStringLiteral("background-color: rgb(30,30,30);"));
+        btn_group->setStyleSheet(QString::fromUtf8("background-color: rgb(30,30,30);"));
         gridLayout = new QGridLayout(btn_group);
         gridLayout->setSpacing(0);
         gridLayout->setContentsMargins(11, 11, 11, 11);
-        gridLayout->setObjectName(QStringLiteral("gridLayout"));
+        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout->setContentsMargins(0, 0, 0, 0);
         verticalSpacer = new QSpacerItem(20, 9, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
@@ -399,12 +396,12 @@ public:
         gridLayout->addItem(horizontalSpacer, 1, 0, 1, 1);
 
         date_confirm_btn = new QPushButton(btn_group);
-        date_confirm_btn->setObjectName(QStringLiteral("date_confirm_btn"));
+        date_confirm_btn->setObjectName(QString::fromUtf8("date_confirm_btn"));
         sizePolicy.setHeightForWidth(date_confirm_btn->sizePolicy().hasHeightForWidth());
         date_confirm_btn->setSizePolicy(sizePolicy);
         date_confirm_btn->setMinimumSize(QSize(1, 1));
         date_confirm_btn->setMaximumSize(QSize(12312, 11111));
-        date_confirm_btn->setStyleSheet(QLatin1String("color: rgb(255, 255, 255);\n"
+        date_confirm_btn->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "background-color: rgb(50, 50, 50);"));
 
         gridLayout->addWidget(date_confirm_btn, 1, 1, 1, 1);
@@ -414,12 +411,12 @@ public:
         gridLayout->addItem(horizontalSpacer_2, 1, 2, 1, 1);
 
         cancel_btn = new QPushButton(btn_group);
-        cancel_btn->setObjectName(QStringLiteral("cancel_btn"));
+        cancel_btn->setObjectName(QString::fromUtf8("cancel_btn"));
         sizePolicy.setHeightForWidth(cancel_btn->sizePolicy().hasHeightForWidth());
         cancel_btn->setSizePolicy(sizePolicy);
         cancel_btn->setMinimumSize(QSize(1, 1));
         cancel_btn->setMaximumSize(QSize(16777215, 111111));
-        cancel_btn->setStyleSheet(QLatin1String("color: rgb(255, 255, 255);\n"
+        cancel_btn->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "background-color: rgb(50, 50, 50);"));
 
         gridLayout->addWidget(cancel_btn, 1, 3, 1, 1);
@@ -457,18 +454,18 @@ public:
 
     void retranslateUi(QWidget *RXDateSelectPage)
     {
-        RXDateSelectPage->setWindowTitle(QApplication::translate("RXDateSelectPage", "RXDateSelectPage", Q_NULLPTR));
-        last_year->setText(QApplication::translate("RXDateSelectPage", "2018", Q_NULLPTR));
-        cur_year->setText(QApplication::translate("RXDateSelectPage", "2019", Q_NULLPTR));
-        next_year->setText(QApplication::translate("RXDateSelectPage", "2020", Q_NULLPTR));
-        last_month->setText(QApplication::translate("RXDateSelectPage", "01", Q_NULLPTR));
-        cur_month->setText(QApplication::translate("RXDateSelectPage", "02", Q_NULLPTR));
-        next_month->setText(QApplication::translate("RXDateSelectPage", "03", Q_NULLPTR));
-        last_day->setText(QApplication::translate("RXDateSelectPage", "01", Q_NULLPTR));
-        cur_day->setText(QApplication::translate("RXDateSelectPage", "02", Q_NULLPTR));
-        next_day->setText(QApplication::translate("RXDateSelectPage", "03", Q_NULLPTR));
-        date_confirm_btn->setText(QApplication::translate("RXDateSelectPage", "\347\241\256\345\256\232", Q_NULLPTR));
-        cancel_btn->setText(QApplication::translate("RXDateSelectPage", "\345\217\226\346\266\210", Q_NULLPTR));
+        RXDateSelectPage->setWindowTitle(QCoreApplication::translate("RXDateSelectPage", "RXDateSelectPage", nullptr));
+        last_year->setText(QCoreApplication::translate("RXDateSelectPage", "2018", nullptr));
+        cur_year->setText(QCoreApplication::translate("RXDateSelectPage", "2019", nullptr));
+        next_year->setText(QCoreApplication::translate("RXDateSelectPage", "2020", nullptr));
+        last_month->setText(QCoreApplication::translate("RXDateSelectPage", "01", nullptr));
+        cur_month->setText(QCoreApplication::translate("RXDateSelectPage", "02", nullptr));
+        next_month->setText(QCoreApplication::translate("RXDateSelectPage", "03", nullptr));
+        last_day->setText(QCoreApplication::translate("RXDateSelectPage", "01", nullptr));
+        cur_day->setText(QCoreApplication::translate("RXDateSelectPage", "02", nullptr));
+        next_day->setText(QCoreApplication::translate("RXDateSelectPage", "03", nullptr));
+        date_confirm_btn->setText(QCoreApplication::translate("RXDateSelectPage", "\347\241\256\345\256\232", nullptr));
+        cancel_btn->setText(QCoreApplication::translate("RXDateSelectPage", "\345\217\226\346\266\210", nullptr));
     } // retranslateUi
 
 };

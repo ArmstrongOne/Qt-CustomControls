@@ -1,7 +1,2 @@
-﻿  Uic'ing CustomControls.ui...
-  Moc'ing CustomControls.h...
-  CustomControls.cpp
-  main.cpp
-  moc_CustomControls.cpp
-  CustomControls.vcxproj -> D:\Tom\TomProjects\Projects\CustomControls\x64\Release\CustomControls.exe
-  CustomControls.vcxproj -> D:\Tom\TomProjects\Projects\CustomControls\x64\Release\CustomControls.pdb (Partial PDB)
+﻿  Reading Qt configuration (C:/Qt/5.15.2/msvc2019_64/bin/qmake)
+  CustomControls.vcxproj -> F:\GitWorkSpace\Tom_CostumController\Qt-CustomControls\x64\Release\CustomControls.exe

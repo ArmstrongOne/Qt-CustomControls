@@ -2,6 +2,7 @@
 #include "ui_RectProgressBar.h"
 #include<QResizeEvent>
 #include<QPainter>
+#include <QPainterPath>
 RectProgressBar::RectProgressBar(QWidget *parent)
 	: QWidget(parent)
 {

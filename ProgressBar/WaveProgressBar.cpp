@@ -1,6 +1,7 @@
 #include "WaveProgressBar.h"
 #include "ui_WaveProgressBar.h"
 #include<QPainter>
+#include<QPainterPath>
 #include <math.h>
 WaveProgressBar::WaveProgressBar(QWidget *parent)
 	: QWidget(parent)

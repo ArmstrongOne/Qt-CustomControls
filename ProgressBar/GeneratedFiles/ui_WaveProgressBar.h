@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'WaveProgressBar.ui'
 **
-** Created by: Qt User Interface Compiler version 5.8.0
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,10 +10,7 @@
 #define UI_WAVEPROGRESSBAR_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QWidget>
 
@@ -27,10 +24,10 @@ public:
     void setupUi(QWidget *WaveProgressBar)
     {
         if (WaveProgressBar->objectName().isEmpty())
-            WaveProgressBar->setObjectName(QStringLiteral("WaveProgressBar"));
+            WaveProgressBar->setObjectName(QString::fromUtf8("WaveProgressBar"));
         WaveProgressBar->resize(400, 300);
         text_lab = new QLabel(WaveProgressBar);
-        text_lab->setObjectName(QStringLiteral("text_lab"));
+        text_lab->setObjectName(QString::fromUtf8("text_lab"));
         text_lab->setGeometry(QRect(70, 80, 211, 141));
         text_lab->setAlignment(Qt::AlignCenter);
 
@@ -41,7 +38,7 @@ public:
 
     void retranslateUi(QWidget *WaveProgressBar)
     {
-        WaveProgressBar->setWindowTitle(QApplication::translate("WaveProgressBar", "WaveProgressBar", Q_NULLPTR));
+        WaveProgressBar->setWindowTitle(QCoreApplication::translate("WaveProgressBar", "WaveProgressBar", nullptr));
         text_lab->setText(QString());
     } // retranslateUi
 

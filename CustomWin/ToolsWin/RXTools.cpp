@@ -3,6 +3,7 @@
 #include <QPainter>
 #include <qmath.h>
 #include <QMouseEvent>
+#include <QPainterPath>
 #pragma execution_character_set("utf-8")
 
 RXTools::RXTools(QWidget *parent):QWidget(parent)

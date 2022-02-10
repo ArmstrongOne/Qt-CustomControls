@@ -1,18 +1,19 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'StripSliderStyleTwo.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.8.0)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
+#include <memory>
 #include "../../StripSliderStyleTwo.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'StripSliderStyleTwo.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.8.0. It"
+#error "This file was generated using the moc from 5.15.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -45,7 +46,7 @@ QT_MOC_LITERAL(3, 33, 9) // "cur_value"
 static const uint qt_meta_data_StripSliderStyleTwo[] = {
 
  // content:
-       7,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
        1,   14, // methods
@@ -67,7 +68,7 @@ static const uint qt_meta_data_StripSliderStyleTwo[] = {
 void StripSliderStyleTwo::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        StripSliderStyleTwo *_t = static_cast<StripSliderStyleTwo *>(_o);
+        auto *_t = static_cast<StripSliderStyleTwo *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->ValueChange((*reinterpret_cast< int(*)>(_a[1]))); break;
@@ -75,10 +76,9 @@ void StripSliderStyleTwo::qt_static_metacall(QObject *_o, QMetaObject::Call _c, 
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
-        void **func = reinterpret_cast<void **>(_a[1]);
         {
-            typedef void (StripSliderStyleTwo::*_t)(int );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&StripSliderStyleTwo::ValueChange)) {
+            using _t = void (StripSliderStyleTwo::*)(int );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&StripSliderStyleTwo::ValueChange)) {
                 *result = 0;
                 return;
             }
@@ -86,10 +86,14 @@ void StripSliderStyleTwo::qt_static_metacall(QObject *_o, QMetaObject::Call _c, 
     }
 }
 
-const QMetaObject StripSliderStyleTwo::staticMetaObject = {
-    { &QWidget::staticMetaObject, qt_meta_stringdata_StripSliderStyleTwo.data,
-      qt_meta_data_StripSliderStyleTwo,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
-};
+QT_INIT_METAOBJECT const QMetaObject StripSliderStyleTwo::staticMetaObject = { {
+    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
+    qt_meta_stringdata_StripSliderStyleTwo.data,
+    qt_meta_data_StripSliderStyleTwo,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
 
 
 const QMetaObject *StripSliderStyleTwo::metaObject() const
@@ -99,9 +103,9 @@ const QMetaObject *StripSliderStyleTwo::metaObject() const
 
 void *StripSliderStyleTwo::qt_metacast(const char *_clname)
 {
-    if (!_clname) return Q_NULLPTR;
+    if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_StripSliderStyleTwo.stringdata0))
-        return static_cast<void*>(const_cast< StripSliderStyleTwo*>(this));
+        return static_cast<void*>(this);
     return QWidget::qt_metacast(_clname);
 }
 
@@ -125,7 +129,7 @@ int StripSliderStyleTwo::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 // SIGNAL 0
 void StripSliderStyleTwo::ValueChange(int _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 QT_WARNING_POP

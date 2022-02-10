@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'CustomPanel.ui'
 **
-** Created by: Qt User Interface Compiler version 5.8.0
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,10 +10,7 @@
 #define UI_CUSTOMPANEL_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -25,7 +22,7 @@ public:
     void setupUi(QWidget *CustomPanel)
     {
         if (CustomPanel->objectName().isEmpty())
-            CustomPanel->setObjectName(QStringLiteral("CustomPanel"));
+            CustomPanel->setObjectName(QString::fromUtf8("CustomPanel"));
         CustomPanel->resize(400, 300);
 
         retranslateUi(CustomPanel);
@@ -35,7 +32,7 @@ public:
 
     void retranslateUi(QWidget *CustomPanel)
     {
-        CustomPanel->setWindowTitle(QApplication::translate("CustomPanel", "CustomPanel", Q_NULLPTR));
+        CustomPanel->setWindowTitle(QCoreApplication::translate("CustomPanel", "CustomPanel", nullptr));
     } // retranslateUi
 
 };

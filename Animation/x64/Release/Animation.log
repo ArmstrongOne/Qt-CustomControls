@@ -1,7 +1,3 @@
-﻿  Uic'ing RXTurnPan.ui...
-  Moc'ing RXTurnPan.h...
-  Animation.cpp
-  RXTurnPan.cpp
-  moc_RXTurnPan.cpp
-    正在创建库 C:\Users\DELL\Desktop\CustomControls\x64\Release\Animation.lib 和对象 C:\Users\DELL\Desktop\CustomControls\x64\Release\Animation.exp
-  Animation.vcxproj -> C:\Users\DELL\Desktop\CustomControls\x64\Release\Animation.dll
+﻿  Reading Qt configuration (C:/Qt/5.15.2/msvc2019_64/bin/qmake)
+    正在创建库 F:\GitWorkSpace\Tom_CostumController\Qt-CustomControls\x64\Release\Animation.lib 和对象 F:\GitWorkSpace\Tom_CostumController\Qt-CustomControls\x64\Release\Animation.exp
+  Animation.vcxproj -> F:\GitWorkSpace\Tom_CostumController\Qt-CustomControls\x64\Release\Animation.dll

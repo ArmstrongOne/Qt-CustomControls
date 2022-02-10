@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'CustomSlider.ui'
 **
-** Created by: Qt User Interface Compiler version 5.8.0
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,10 +10,7 @@
 #define UI_CUSTOMSLIDER_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QWidget>
 #include "SliderBar.h"
 
@@ -27,7 +24,7 @@ public:
     void setupUi(QWidget *CustomSlider)
     {
         if (CustomSlider->objectName().isEmpty())
-            CustomSlider->setObjectName(QStringLiteral("CustomSlider"));
+            CustomSlider->setObjectName(QString::fromUtf8("CustomSlider"));
         CustomSlider->resize(213, 479);
         QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
         sizePolicy.setHorizontalStretch(0);
@@ -35,11 +32,11 @@ public:
         sizePolicy.setHeightForWidth(CustomSlider->sizePolicy().hasHeightForWidth());
         CustomSlider->setSizePolicy(sizePolicy);
         hander_lab = new QRoundedLabel(CustomSlider);
-        hander_lab->setObjectName(QStringLiteral("hander_lab"));
+        hander_lab->setObjectName(QString::fromUtf8("hander_lab"));
         hander_lab->setGeometry(QRect(50, 140, 81, 71));
         sizePolicy.setHeightForWidth(hander_lab->sizePolicy().hasHeightForWidth());
         hander_lab->setSizePolicy(sizePolicy);
-        hander_lab->setStyleSheet(QStringLiteral(""));
+        hander_lab->setStyleSheet(QString::fromUtf8(""));
         hander_lab->setAlignment(Qt::AlignCenter);
 
         retranslateUi(CustomSlider);
@@ -49,7 +46,7 @@ public:
 
     void retranslateUi(QWidget *CustomSlider)
     {
-        CustomSlider->setWindowTitle(QApplication::translate("CustomSlider", "CustomSlider", Q_NULLPTR));
+        CustomSlider->setWindowTitle(QCoreApplication::translate("CustomSlider", "CustomSlider", nullptr));
         hander_lab->setText(QString());
     } // retranslateUi
 

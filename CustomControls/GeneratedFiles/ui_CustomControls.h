@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'CustomControls.ui'
 **
-** Created by: Qt User Interface Compiler version 5.8.0
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,12 +10,9 @@
 #define UI_CUSTOMCONTROLS_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHBoxLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QRadioButton>
@@ -163,7 +160,7 @@ public:
     void setupUi(QWidget *CustomControlsClass)
     {
         if (CustomControlsClass->objectName().isEmpty())
-            CustomControlsClass->setObjectName(QStringLiteral("CustomControlsClass"));
+            CustomControlsClass->setObjectName(QString::fromUtf8("CustomControlsClass"));
         CustomControlsClass->resize(800, 600);
         QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
         sizePolicy.setHorizontalStretch(0);
@@ -176,26 +173,26 @@ public:
         gridLayout_2 = new QGridLayout(CustomControlsClass);
         gridLayout_2->setSpacing(0);
         gridLayout_2->setContentsMargins(11, 11, 11, 11);
-        gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
+        gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
         gridLayout_2->setContentsMargins(0, 0, 0, 0);
         blank_wid_left = new QWidget(CustomControlsClass);
-        blank_wid_left->setObjectName(QStringLiteral("blank_wid_left"));
+        blank_wid_left->setObjectName(QString::fromUtf8("blank_wid_left"));
         sizePolicy.setHeightForWidth(blank_wid_left->sizePolicy().hasHeightForWidth());
         blank_wid_left->setSizePolicy(sizePolicy);
-        blank_wid_left->setStyleSheet(QLatin1String("#blank_wid_left\n"
+        blank_wid_left->setStyleSheet(QString::fromUtf8("#blank_wid_left\n"
 "{\n"
 "background-color: rgb(40, 43, 51);\n"
 "}"));
         verticalLayout_2 = new QVBoxLayout(blank_wid_left);
         verticalLayout_2->setSpacing(0);
         verticalLayout_2->setContentsMargins(11, 11, 11, 11);
-        verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
+        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         verticalLayout_2->setContentsMargins(0, 0, 0, 0);
         left_mark_wid = new QWidget(blank_wid_left);
-        left_mark_wid->setObjectName(QStringLiteral("left_mark_wid"));
+        left_mark_wid->setObjectName(QString::fromUtf8("left_mark_wid"));
         sizePolicy.setHeightForWidth(left_mark_wid->sizePolicy().hasHeightForWidth());
         left_mark_wid->setSizePolicy(sizePolicy);
-        left_mark_wid->setStyleSheet(QLatin1String("#left_mark_wid\n"
+        left_mark_wid->setStyleSheet(QString::fromUtf8("#left_mark_wid\n"
 "{\n"
 "background-color: rgb(40, 43, 51);\n"
 "\n"
@@ -214,21 +211,21 @@ public:
         gridLayout_2->addWidget(blank_wid_left, 0, 0, 1, 1);
 
         blank_wid_right = new QWidget(CustomControlsClass);
-        blank_wid_right->setObjectName(QStringLiteral("blank_wid_right"));
-        blank_wid_right->setStyleSheet(QLatin1String("#blank_wid_right\n"
+        blank_wid_right->setObjectName(QString::fromUtf8("blank_wid_right"));
+        blank_wid_right->setStyleSheet(QString::fromUtf8("#blank_wid_right\n"
 "{\n"
 "background-color: rgb(40, 43, 51);\n"
 "}"));
         verticalLayout_3 = new QVBoxLayout(blank_wid_right);
         verticalLayout_3->setSpacing(0);
         verticalLayout_3->setContentsMargins(11, 11, 11, 11);
-        verticalLayout_3->setObjectName(QStringLiteral("verticalLayout_3"));
+        verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
         verticalLayout_3->setContentsMargins(0, 0, 0, 0);
         right_mark_wid = new QWidget(blank_wid_right);
-        right_mark_wid->setObjectName(QStringLiteral("right_mark_wid"));
+        right_mark_wid->setObjectName(QString::fromUtf8("right_mark_wid"));
         sizePolicy.setHeightForWidth(right_mark_wid->sizePolicy().hasHeightForWidth());
         right_mark_wid->setSizePolicy(sizePolicy);
-        right_mark_wid->setStyleSheet(QLatin1String("#right_mark_wid\n"
+        right_mark_wid->setStyleSheet(QString::fromUtf8("#right_mark_wid\n"
 "{\n"
 "\n"
 "	background-color: rgb(40, 43, 51);\n"
@@ -248,17 +245,17 @@ public:
         gridLayout_2->addWidget(blank_wid_right, 0, 2, 1, 1);
 
         tab_wid = new QWidget(CustomControlsClass);
-        tab_wid->setObjectName(QStringLiteral("tab_wid"));
+        tab_wid->setObjectName(QString::fromUtf8("tab_wid"));
         sizePolicy.setHeightForWidth(tab_wid->sizePolicy().hasHeightForWidth());
         tab_wid->setSizePolicy(sizePolicy);
         gridLayout_3 = new QGridLayout(tab_wid);
         gridLayout_3->setSpacing(0);
         gridLayout_3->setContentsMargins(11, 11, 11, 11);
-        gridLayout_3->setObjectName(QStringLiteral("gridLayout_3"));
+        gridLayout_3->setObjectName(QString::fromUtf8("gridLayout_3"));
         gridLayout_3->setContentsMargins(0, 0, 0, 0);
         main_tab_wid = new QTabWidget(tab_wid);
-        main_tab_wid->setObjectName(QStringLiteral("main_tab_wid"));
-        main_tab_wid->setStyleSheet(QLatin1String("\n"
+        main_tab_wid->setObjectName(QString::fromUtf8("main_tab_wid"));
+        main_tab_wid->setStyleSheet(QString::fromUtf8("\n"
 "QTabWidget::pane \n"
 "{ \n"
 "border:0px solid;\n"
@@ -266,8 +263,8 @@ public:
 "\n"
 ""));
         progressbar_tab = new QWidget();
-        progressbar_tab->setObjectName(QStringLiteral("progressbar_tab"));
-        progressbar_tab->setStyleSheet(QLatin1String("\n"
+        progressbar_tab->setObjectName(QString::fromUtf8("progressbar_tab"));
+        progressbar_tab->setStyleSheet(QString::fromUtf8("\n"
 "#progressbar_tab{\n"
 "	\n"
 "	border-image: url(:/CustomControls/picture/background.png);\n"
@@ -278,38 +275,38 @@ public:
         gridLayout_8 = new QGridLayout(progressbar_tab);
         gridLayout_8->setSpacing(5);
         gridLayout_8->setContentsMargins(11, 11, 11, 11);
-        gridLayout_8->setObjectName(QStringLiteral("gridLayout_8"));
+        gridLayout_8->setObjectName(QString::fromUtf8("gridLayout_8"));
         gridLayout_8->setContentsMargins(5, 5, 5, 5);
         dash_board = new DashBoard(progressbar_tab);
-        dash_board->setObjectName(QStringLiteral("dash_board"));
+        dash_board->setObjectName(QString::fromUtf8("dash_board"));
         sizePolicy.setHeightForWidth(dash_board->sizePolicy().hasHeightForWidth());
         dash_board->setSizePolicy(sizePolicy);
 
         gridLayout_8->addWidget(dash_board, 0, 0, 1, 1);
 
         ring_progressbar = new RingProgressBar(progressbar_tab);
-        ring_progressbar->setObjectName(QStringLiteral("ring_progressbar"));
+        ring_progressbar->setObjectName(QString::fromUtf8("ring_progressbar"));
         sizePolicy.setHeightForWidth(ring_progressbar->sizePolicy().hasHeightForWidth());
         ring_progressbar->setSizePolicy(sizePolicy);
 
         gridLayout_8->addWidget(ring_progressbar, 0, 1, 1, 1);
 
         linear_progressbar = new LinearProgressBar(progressbar_tab);
-        linear_progressbar->setObjectName(QStringLiteral("linear_progressbar"));
+        linear_progressbar->setObjectName(QString::fromUtf8("linear_progressbar"));
         sizePolicy.setHeightForWidth(linear_progressbar->sizePolicy().hasHeightForWidth());
         linear_progressbar->setSizePolicy(sizePolicy);
 
         gridLayout_8->addWidget(linear_progressbar, 0, 2, 1, 1);
 
         widget_23 = new QWidget(progressbar_tab);
-        widget_23->setObjectName(QStringLiteral("widget_23"));
+        widget_23->setObjectName(QString::fromUtf8("widget_23"));
         sizePolicy.setHeightForWidth(widget_23->sizePolicy().hasHeightForWidth());
         widget_23->setSizePolicy(sizePolicy);
-        widget_23->setStyleSheet(QStringLiteral(""));
+        widget_23->setStyleSheet(QString::fromUtf8(""));
         gridLayout_6 = new QGridLayout(widget_23);
         gridLayout_6->setSpacing(0);
         gridLayout_6->setContentsMargins(11, 11, 11, 11);
-        gridLayout_6->setObjectName(QStringLiteral("gridLayout_6"));
+        gridLayout_6->setObjectName(QString::fromUtf8("gridLayout_6"));
         gridLayout_6->setContentsMargins(0, 0, 0, 0);
         verticalSpacer_7 = new QSpacerItem(20, 41, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
@@ -320,13 +317,13 @@ public:
         gridLayout_6->addItem(verticalSpacer_6, 0, 0, 1, 1);
 
         progress_slider = new QSlider(widget_23);
-        progress_slider->setObjectName(QStringLiteral("progress_slider"));
+        progress_slider->setObjectName(QString::fromUtf8("progress_slider"));
         QSizePolicy sizePolicy1(QSizePolicy::Expanding, QSizePolicy::MinimumExpanding);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
         sizePolicy1.setHeightForWidth(progress_slider->sizePolicy().hasHeightForWidth());
         progress_slider->setSizePolicy(sizePolicy1);
-        progress_slider->setStyleSheet(QStringLiteral(""));
+        progress_slider->setStyleSheet(QString::fromUtf8(""));
         progress_slider->setMaximum(100);
         progress_slider->setOrientation(Qt::Horizontal);
 
@@ -338,21 +335,21 @@ public:
         gridLayout_8->addWidget(widget_23, 1, 0, 1, 3);
 
         wave_progressbar = new WaveProgressBar(progressbar_tab);
-        wave_progressbar->setObjectName(QStringLiteral("wave_progressbar"));
+        wave_progressbar->setObjectName(QString::fromUtf8("wave_progressbar"));
         sizePolicy.setHeightForWidth(wave_progressbar->sizePolicy().hasHeightForWidth());
         wave_progressbar->setSizePolicy(sizePolicy);
 
         gridLayout_8->addWidget(wave_progressbar, 2, 0, 1, 1);
 
         rect_progressbar = new RectProgressBar(progressbar_tab);
-        rect_progressbar->setObjectName(QStringLiteral("rect_progressbar"));
+        rect_progressbar->setObjectName(QString::fromUtf8("rect_progressbar"));
         sizePolicy.setHeightForWidth(rect_progressbar->sizePolicy().hasHeightForWidth());
         rect_progressbar->setSizePolicy(sizePolicy);
 
         gridLayout_8->addWidget(rect_progressbar, 2, 1, 1, 1);
 
         rect_wave_progressbar = new RectWaveProgressBar(progressbar_tab);
-        rect_wave_progressbar->setObjectName(QStringLiteral("rect_wave_progressbar"));
+        rect_wave_progressbar->setObjectName(QString::fromUtf8("rect_wave_progressbar"));
         sizePolicy.setHeightForWidth(rect_wave_progressbar->sizePolicy().hasHeightForWidth());
         rect_wave_progressbar->setSizePolicy(sizePolicy);
 
@@ -366,8 +363,8 @@ public:
         gridLayout_8->setColumnStretch(2, 10);
         main_tab_wid->addTab(progressbar_tab, QString());
         sliderbar_tab = new QWidget();
-        sliderbar_tab->setObjectName(QStringLiteral("sliderbar_tab"));
-        sliderbar_tab->setStyleSheet(QLatin1String("#sliderbar_tab\n"
+        sliderbar_tab->setObjectName(QString::fromUtf8("sliderbar_tab"));
+        sliderbar_tab->setStyleSheet(QString::fromUtf8("#sliderbar_tab\n"
 "{\n"
 "\n"
 "\n"
@@ -380,45 +377,45 @@ public:
         gridLayout_5 = new QGridLayout(sliderbar_tab);
         gridLayout_5->setSpacing(5);
         gridLayout_5->setContentsMargins(11, 11, 11, 11);
-        gridLayout_5->setObjectName(QStringLiteral("gridLayout_5"));
+        gridLayout_5->setObjectName(QString::fromUtf8("gridLayout_5"));
         gridLayout_5->setContentsMargins(5, 5, 5, 5);
         custom_slider = new CustomSlider(sliderbar_tab);
-        custom_slider->setObjectName(QStringLiteral("custom_slider"));
+        custom_slider->setObjectName(QString::fromUtf8("custom_slider"));
 
         gridLayout_5->addWidget(custom_slider, 0, 0, 1, 1);
 
         double_handle_slider = new DoubleHandleSlider(sliderbar_tab);
-        double_handle_slider->setObjectName(QStringLiteral("double_handle_slider"));
+        double_handle_slider->setObjectName(QString::fromUtf8("double_handle_slider"));
 
         gridLayout_5->addWidget(double_handle_slider, 0, 1, 1, 1);
 
         tip_slider = new TipSlider(sliderbar_tab);
-        tip_slider->setObjectName(QStringLiteral("tip_slider"));
+        tip_slider->setObjectName(QString::fromUtf8("tip_slider"));
 
         gridLayout_5->addWidget(tip_slider, 0, 2, 1, 1);
 
         strip_slider = new StripSlider(sliderbar_tab);
-        strip_slider->setObjectName(QStringLiteral("strip_slider"));
+        strip_slider->setObjectName(QString::fromUtf8("strip_slider"));
 
         gridLayout_5->addWidget(strip_slider, 0, 3, 1, 1);
 
         custom_slider_style_one = new CustomSliderStyleOne(sliderbar_tab);
-        custom_slider_style_one->setObjectName(QStringLiteral("custom_slider_style_one"));
+        custom_slider_style_one->setObjectName(QString::fromUtf8("custom_slider_style_one"));
 
         gridLayout_5->addWidget(custom_slider_style_one, 1, 0, 1, 1);
 
         custom_slider_style_two = new CustomSliderStyleTwo(sliderbar_tab);
-        custom_slider_style_two->setObjectName(QStringLiteral("custom_slider_style_two"));
+        custom_slider_style_two->setObjectName(QString::fromUtf8("custom_slider_style_two"));
 
         gridLayout_5->addWidget(custom_slider_style_two, 1, 1, 1, 1);
 
         strip_slider_style_one = new StripSliderStyleOne(sliderbar_tab);
-        strip_slider_style_one->setObjectName(QStringLiteral("strip_slider_style_one"));
+        strip_slider_style_one->setObjectName(QString::fromUtf8("strip_slider_style_one"));
 
         gridLayout_5->addWidget(strip_slider_style_one, 1, 2, 1, 1);
 
         strip_slider_style_two = new StripSliderStyleTwo(sliderbar_tab);
-        strip_slider_style_two->setObjectName(QStringLiteral("strip_slider_style_two"));
+        strip_slider_style_two->setObjectName(QString::fromUtf8("strip_slider_style_two"));
 
         gridLayout_5->addWidget(strip_slider_style_two, 1, 3, 1, 1);
 
@@ -430,8 +427,8 @@ public:
         gridLayout_5->setColumnStretch(3, 10);
         main_tab_wid->addTab(sliderbar_tab, QString());
         panel_tab = new QWidget();
-        panel_tab->setObjectName(QStringLiteral("panel_tab"));
-        panel_tab->setStyleSheet(QLatin1String("#panel_tab\n"
+        panel_tab->setObjectName(QString::fromUtf8("panel_tab"));
+        panel_tab->setStyleSheet(QString::fromUtf8("#panel_tab\n"
 "{\n"
 "border-image: url(:/CustomControls/picture/background.png);\n"
 "\n"
@@ -440,20 +437,20 @@ public:
         gridLayout_11 = new QGridLayout(panel_tab);
         gridLayout_11->setSpacing(2);
         gridLayout_11->setContentsMargins(11, 11, 11, 11);
-        gridLayout_11->setObjectName(QStringLiteral("gridLayout_11"));
+        gridLayout_11->setObjectName(QString::fromUtf8("gridLayout_11"));
         gridLayout_11->setContentsMargins(2, 2, 2, 2);
         custom_panel = new CustomPanel(panel_tab);
-        custom_panel->setObjectName(QStringLiteral("custom_panel"));
+        custom_panel->setObjectName(QString::fromUtf8("custom_panel"));
 
         gridLayout_11->addWidget(custom_panel, 0, 0, 1, 1);
 
         netspeed_panel = new NetSpeedPanel(panel_tab);
-        netspeed_panel->setObjectName(QStringLiteral("netspeed_panel"));
+        netspeed_panel->setObjectName(QString::fromUtf8("netspeed_panel"));
 
         gridLayout_11->addWidget(netspeed_panel, 0, 1, 1, 1);
 
         panel_slider = new QSlider(panel_tab);
-        panel_slider->setObjectName(QStringLiteral("panel_slider"));
+        panel_slider->setObjectName(QString::fromUtf8("panel_slider"));
         sizePolicy.setHeightForWidth(panel_slider->sizePolicy().hasHeightForWidth());
         panel_slider->setSizePolicy(sizePolicy);
         panel_slider->setMaximum(100);
@@ -462,10 +459,10 @@ public:
         gridLayout_11->addWidget(panel_slider, 1, 0, 1, 2);
 
         semicircle_panel = new SemiCirclePanel(panel_tab);
-        semicircle_panel->setObjectName(QStringLiteral("semicircle_panel"));
+        semicircle_panel->setObjectName(QString::fromUtf8("semicircle_panel"));
         sizePolicy.setHeightForWidth(semicircle_panel->sizePolicy().hasHeightForWidth());
         semicircle_panel->setSizePolicy(sizePolicy);
-        semicircle_panel->setStyleSheet(QStringLiteral(""));
+        semicircle_panel->setStyleSheet(QString::fromUtf8(""));
 
         gridLayout_11->addWidget(semicircle_panel, 2, 0, 1, 2);
 
@@ -474,49 +471,49 @@ public:
         gridLayout_11->setRowStretch(2, 20);
         main_tab_wid->addTab(panel_tab, QString());
         qwt_tab = new QWidget();
-        qwt_tab->setObjectName(QStringLiteral("qwt_tab"));
+        qwt_tab->setObjectName(QString::fromUtf8("qwt_tab"));
         gridLayout_9 = new QGridLayout(qwt_tab);
         gridLayout_9->setSpacing(0);
         gridLayout_9->setContentsMargins(11, 11, 11, 11);
-        gridLayout_9->setObjectName(QStringLiteral("gridLayout_9"));
+        gridLayout_9->setObjectName(QString::fromUtf8("gridLayout_9"));
         gridLayout_9->setContentsMargins(0, 0, 0, 0);
         set_wid = new QWidget(qwt_tab);
-        set_wid->setObjectName(QStringLiteral("set_wid"));
-        set_wid->setStyleSheet(QStringLiteral("background-color: rgb(64, 67, 74);"));
+        set_wid->setObjectName(QString::fromUtf8("set_wid"));
+        set_wid->setStyleSheet(QString::fromUtf8("background-color: rgb(64, 67, 74);"));
 
         gridLayout_9->addWidget(set_wid, 0, 0, 1, 1);
 
         chart_wid = new QWidget(qwt_tab);
-        chart_wid->setObjectName(QStringLiteral("chart_wid"));
-        chart_wid->setStyleSheet(QStringLiteral("background-color: rgb(64, 67, 74);"));
+        chart_wid->setObjectName(QString::fromUtf8("chart_wid"));
+        chart_wid->setStyleSheet(QString::fromUtf8("background-color: rgb(64, 67, 74);"));
         gridLayout_10 = new QGridLayout(chart_wid);
         gridLayout_10->setSpacing(15);
         gridLayout_10->setContentsMargins(11, 11, 11, 11);
-        gridLayout_10->setObjectName(QStringLiteral("gridLayout_10"));
+        gridLayout_10->setObjectName(QString::fromUtf8("gridLayout_10"));
         gridLayout_10->setContentsMargins(15, 15, 15, 15);
         handle_line_chart = new HandleLineChart(chart_wid);
-        handle_line_chart->setObjectName(QStringLiteral("handle_line_chart"));
+        handle_line_chart->setObjectName(QString::fromUtf8("handle_line_chart"));
         sizePolicy.setHeightForWidth(handle_line_chart->sizePolicy().hasHeightForWidth());
         handle_line_chart->setSizePolicy(sizePolicy);
 
         gridLayout_10->addWidget(handle_line_chart, 0, 0, 1, 1);
 
         handle_pie_chart = new HandlePieChart(chart_wid);
-        handle_pie_chart->setObjectName(QStringLiteral("handle_pie_chart"));
+        handle_pie_chart->setObjectName(QString::fromUtf8("handle_pie_chart"));
         sizePolicy.setHeightForWidth(handle_pie_chart->sizePolicy().hasHeightForWidth());
         handle_pie_chart->setSizePolicy(sizePolicy);
 
         gridLayout_10->addWidget(handle_pie_chart, 0, 1, 1, 1);
 
         handle_scatter_chart = new HandleScatterChart(chart_wid);
-        handle_scatter_chart->setObjectName(QStringLiteral("handle_scatter_chart"));
+        handle_scatter_chart->setObjectName(QString::fromUtf8("handle_scatter_chart"));
         sizePolicy.setHeightForWidth(handle_scatter_chart->sizePolicy().hasHeightForWidth());
         handle_scatter_chart->setSizePolicy(sizePolicy);
 
         gridLayout_10->addWidget(handle_scatter_chart, 1, 0, 1, 1);
 
         handle_bar_chart = new HandleBarChart(chart_wid);
-        handle_bar_chart->setObjectName(QStringLiteral("handle_bar_chart"));
+        handle_bar_chart->setObjectName(QString::fromUtf8("handle_bar_chart"));
         sizePolicy.setHeightForWidth(handle_bar_chart->sizePolicy().hasHeightForWidth());
         handle_bar_chart->setSizePolicy(sizePolicy);
 
@@ -533,8 +530,8 @@ public:
         gridLayout_9->setRowStretch(1, 50);
         main_tab_wid->addTab(qwt_tab, QString());
         animation_tab = new QWidget();
-        animation_tab->setObjectName(QStringLiteral("animation_tab"));
-        animation_tab->setStyleSheet(QLatin1String("\n"
+        animation_tab->setObjectName(QString::fromUtf8("animation_tab"));
+        animation_tab->setStyleSheet(QString::fromUtf8("\n"
 "#animation_tab{\n"
 "	\n"
 "	border-image: url(:/CustomControls/picture/background.png);\n"
@@ -545,49 +542,49 @@ public:
         gridLayout_7 = new QGridLayout(animation_tab);
         gridLayout_7->setSpacing(6);
         gridLayout_7->setContentsMargins(11, 11, 11, 11);
-        gridLayout_7->setObjectName(QStringLiteral("gridLayout_7"));
+        gridLayout_7->setObjectName(QString::fromUtf8("gridLayout_7"));
         turn_pan = new RXTurnPan(animation_tab);
-        turn_pan->setObjectName(QStringLiteral("turn_pan"));
+        turn_pan->setObjectName(QString::fromUtf8("turn_pan"));
 
         gridLayout_7->addWidget(turn_pan, 0, 0, 2, 2);
 
         widget_3 = new QWidget(animation_tab);
-        widget_3->setObjectName(QStringLiteral("widget_3"));
+        widget_3->setObjectName(QString::fromUtf8("widget_3"));
 
         gridLayout_7->addWidget(widget_3, 0, 2, 1, 1);
 
         widget_9 = new QWidget(animation_tab);
-        widget_9->setObjectName(QStringLiteral("widget_9"));
+        widget_9->setObjectName(QString::fromUtf8("widget_9"));
 
         gridLayout_7->addWidget(widget_9, 1, 2, 1, 1);
 
         widget_10 = new QWidget(animation_tab);
-        widget_10->setObjectName(QStringLiteral("widget_10"));
+        widget_10->setObjectName(QString::fromUtf8("widget_10"));
 
         gridLayout_7->addWidget(widget_10, 2, 0, 1, 1);
 
         widget_11 = new QWidget(animation_tab);
-        widget_11->setObjectName(QStringLiteral("widget_11"));
+        widget_11->setObjectName(QString::fromUtf8("widget_11"));
 
         gridLayout_7->addWidget(widget_11, 2, 1, 1, 1);
 
         widget_12 = new QWidget(animation_tab);
-        widget_12->setObjectName(QStringLiteral("widget_12"));
+        widget_12->setObjectName(QString::fromUtf8("widget_12"));
 
         gridLayout_7->addWidget(widget_12, 2, 2, 1, 1);
 
         main_tab_wid->addTab(animation_tab, QString());
         otherbutton_tab = new QWidget();
-        otherbutton_tab->setObjectName(QStringLiteral("otherbutton_tab"));
-        otherbutton_tab->setStyleSheet(QStringLiteral(""));
+        otherbutton_tab->setObjectName(QString::fromUtf8("otherbutton_tab"));
+        otherbutton_tab->setStyleSheet(QString::fromUtf8(""));
         gridLayout_12 = new QGridLayout(otherbutton_tab);
         gridLayout_12->setSpacing(0);
         gridLayout_12->setContentsMargins(11, 11, 11, 11);
-        gridLayout_12->setObjectName(QStringLiteral("gridLayout_12"));
+        gridLayout_12->setObjectName(QString::fromUtf8("gridLayout_12"));
         gridLayout_12->setContentsMargins(0, 0, 0, 0);
         btns_wid = new QWidget(otherbutton_tab);
-        btns_wid->setObjectName(QStringLiteral("btns_wid"));
-        btns_wid->setStyleSheet(QLatin1String("\n"
+        btns_wid->setObjectName(QString::fromUtf8("btns_wid"));
+        btns_wid->setStyleSheet(QString::fromUtf8("\n"
 "#btns_wid\n"
 "{\n"
 "\n"
@@ -601,38 +598,38 @@ public:
         gridLayout_13 = new QGridLayout(btns_wid);
         gridLayout_13->setSpacing(1);
         gridLayout_13->setContentsMargins(11, 11, 11, 11);
-        gridLayout_13->setObjectName(QStringLiteral("gridLayout_13"));
+        gridLayout_13->setObjectName(QString::fromUtf8("gridLayout_13"));
         gridLayout_13->setContentsMargins(0, 0, 0, 0);
         btn_controller_1_wid = new QWidget(btns_wid);
-        btn_controller_1_wid->setObjectName(QStringLiteral("btn_controller_1_wid"));
+        btn_controller_1_wid->setObjectName(QString::fromUtf8("btn_controller_1_wid"));
         vessal_widget = new QWidget(btn_controller_1_wid);
-        vessal_widget->setObjectName(QStringLiteral("vessal_widget"));
+        vessal_widget->setObjectName(QString::fromUtf8("vessal_widget"));
         vessal_widget->setGeometry(QRect(10, 40, 131, 41));
         sizePolicy.setHeightForWidth(vessal_widget->sizePolicy().hasHeightForWidth());
         vessal_widget->setSizePolicy(sizePolicy);
         vessal_widget->setMinimumSize(QSize(1, 1));
-        vessal_widget->setStyleSheet(QStringLiteral(""));
+        vessal_widget->setStyleSheet(QString::fromUtf8(""));
         horizontalLayout_3 = new QHBoxLayout(vessal_widget);
         horizontalLayout_3->setSpacing(0);
         horizontalLayout_3->setContentsMargins(11, 11, 11, 11);
-        horizontalLayout_3->setObjectName(QStringLiteral("horizontalLayout_3"));
+        horizontalLayout_3->setObjectName(QString::fromUtf8("horizontalLayout_3"));
         horizontalLayout_3->setContentsMargins(0, 0, 0, 0);
         vessel_left_blank_wid = new QWidget(vessal_widget);
-        vessel_left_blank_wid->setObjectName(QStringLiteral("vessel_left_blank_wid"));
+        vessel_left_blank_wid->setObjectName(QString::fromUtf8("vessel_left_blank_wid"));
         vessel_left_blank_wid->setMinimumSize(QSize(1, 0));
         vessel_left_blank_wid->setMaximumSize(QSize(100000, 16777215));
-        vessel_left_blank_wid->setStyleSheet(QStringLiteral("border-image: url(:/CustomControls/picture/btns_pic/left_check.png);"));
+        vessel_left_blank_wid->setStyleSheet(QString::fromUtf8("border-image: url(:/CustomControls/picture/btns_pic/left_check.png);"));
 
         horizontalLayout_3->addWidget(vessel_left_blank_wid);
 
         test_drop_menu_btn = new QPushButton(vessal_widget);
-        test_drop_menu_btn->setObjectName(QStringLiteral("test_drop_menu_btn"));
+        test_drop_menu_btn->setObjectName(QString::fromUtf8("test_drop_menu_btn"));
         sizePolicy.setHeightForWidth(test_drop_menu_btn->sizePolicy().hasHeightForWidth());
         test_drop_menu_btn->setSizePolicy(sizePolicy);
         test_drop_menu_btn->setMinimumSize(QSize(1, 1));
         test_drop_menu_btn->setMaximumSize(QSize(10000, 16777215));
         test_drop_menu_btn->setFocusPolicy(Qt::NoFocus);
-        test_drop_menu_btn->setStyleSheet(QLatin1String("QPushButton\n"
+        test_drop_menu_btn->setStyleSheet(QString::fromUtf8("QPushButton\n"
 "{\n"
 "color:rgb(255, 255, 255);\n"
 "border-image: url(:/CustomControls/picture/btns_pic/mid_check.png);\n"
@@ -646,10 +643,10 @@ public:
         horizontalLayout_3->addWidget(test_drop_menu_btn);
 
         vessel_right_blank_wid = new QWidget(vessal_widget);
-        vessel_right_blank_wid->setObjectName(QStringLiteral("vessel_right_blank_wid"));
+        vessel_right_blank_wid->setObjectName(QString::fromUtf8("vessel_right_blank_wid"));
         vessel_right_blank_wid->setMinimumSize(QSize(1, 0));
         vessel_right_blank_wid->setMaximumSize(QSize(10000, 16777215));
-        vessel_right_blank_wid->setStyleSheet(QStringLiteral("border-image: url(:/CustomControls/picture/btns_pic/right_check.png);"));
+        vessel_right_blank_wid->setStyleSheet(QString::fromUtf8("border-image: url(:/CustomControls/picture/btns_pic/right_check.png);"));
 
         horizontalLayout_3->addWidget(vessel_right_blank_wid);
 
@@ -660,82 +657,82 @@ public:
         gridLayout_13->addWidget(btn_controller_1_wid, 0, 0, 1, 1);
 
         btn_controller_2_wid = new QWidget(btns_wid);
-        btn_controller_2_wid->setObjectName(QStringLiteral("btn_controller_2_wid"));
+        btn_controller_2_wid->setObjectName(QString::fromUtf8("btn_controller_2_wid"));
         gridLayout_14 = new QGridLayout(btn_controller_2_wid);
         gridLayout_14->setSpacing(0);
         gridLayout_14->setContentsMargins(11, 11, 11, 11);
-        gridLayout_14->setObjectName(QStringLiteral("gridLayout_14"));
+        gridLayout_14->setObjectName(QString::fromUtf8("gridLayout_14"));
         gridLayout_14->setContentsMargins(0, 0, 0, 0);
 
         gridLayout_13->addWidget(btn_controller_2_wid, 0, 1, 1, 1);
 
         btn_controller_3_wid = new QWidget(btns_wid);
-        btn_controller_3_wid->setObjectName(QStringLiteral("btn_controller_3_wid"));
+        btn_controller_3_wid->setObjectName(QString::fromUtf8("btn_controller_3_wid"));
 
         gridLayout_13->addWidget(btn_controller_3_wid, 0, 2, 1, 1);
 
         btn_controller_4_wid = new QWidget(btns_wid);
-        btn_controller_4_wid->setObjectName(QStringLiteral("btn_controller_4_wid"));
+        btn_controller_4_wid->setObjectName(QString::fromUtf8("btn_controller_4_wid"));
 
         gridLayout_13->addWidget(btn_controller_4_wid, 0, 3, 1, 1);
 
         btn_controller_5_wid = new QWidget(btns_wid);
-        btn_controller_5_wid->setObjectName(QStringLiteral("btn_controller_5_wid"));
+        btn_controller_5_wid->setObjectName(QString::fromUtf8("btn_controller_5_wid"));
 
         gridLayout_13->addWidget(btn_controller_5_wid, 1, 0, 1, 1);
 
         btn_controller_6_wid = new QWidget(btns_wid);
-        btn_controller_6_wid->setObjectName(QStringLiteral("btn_controller_6_wid"));
+        btn_controller_6_wid->setObjectName(QString::fromUtf8("btn_controller_6_wid"));
 
         gridLayout_13->addWidget(btn_controller_6_wid, 1, 1, 1, 1);
 
         btn_controller_7_wid = new QWidget(btns_wid);
-        btn_controller_7_wid->setObjectName(QStringLiteral("btn_controller_7_wid"));
+        btn_controller_7_wid->setObjectName(QString::fromUtf8("btn_controller_7_wid"));
 
         gridLayout_13->addWidget(btn_controller_7_wid, 1, 2, 1, 1);
 
         btn_controller_8_wid = new QWidget(btns_wid);
-        btn_controller_8_wid->setObjectName(QStringLiteral("btn_controller_8_wid"));
+        btn_controller_8_wid->setObjectName(QString::fromUtf8("btn_controller_8_wid"));
 
         gridLayout_13->addWidget(btn_controller_8_wid, 1, 3, 1, 1);
 
         btn_controller_9_wid = new QWidget(btns_wid);
-        btn_controller_9_wid->setObjectName(QStringLiteral("btn_controller_9_wid"));
+        btn_controller_9_wid->setObjectName(QString::fromUtf8("btn_controller_9_wid"));
 
         gridLayout_13->addWidget(btn_controller_9_wid, 2, 0, 1, 1);
 
         btn_controller_10_wid = new QWidget(btns_wid);
-        btn_controller_10_wid->setObjectName(QStringLiteral("btn_controller_10_wid"));
+        btn_controller_10_wid->setObjectName(QString::fromUtf8("btn_controller_10_wid"));
 
         gridLayout_13->addWidget(btn_controller_10_wid, 2, 1, 1, 1);
 
         btn_controller_11_wid = new QWidget(btns_wid);
-        btn_controller_11_wid->setObjectName(QStringLiteral("btn_controller_11_wid"));
+        btn_controller_11_wid->setObjectName(QString::fromUtf8("btn_controller_11_wid"));
 
         gridLayout_13->addWidget(btn_controller_11_wid, 2, 2, 1, 1);
 
         btn_controller_12_wid = new QWidget(btns_wid);
-        btn_controller_12_wid->setObjectName(QStringLiteral("btn_controller_12_wid"));
+        btn_controller_12_wid->setObjectName(QString::fromUtf8("btn_controller_12_wid"));
 
         gridLayout_13->addWidget(btn_controller_12_wid, 2, 3, 1, 1);
 
         btn_controller_13_wid = new QWidget(btns_wid);
-        btn_controller_13_wid->setObjectName(QStringLiteral("btn_controller_13_wid"));
+        btn_controller_13_wid->setObjectName(QString::fromUtf8("btn_controller_13_wid"));
 
         gridLayout_13->addWidget(btn_controller_13_wid, 3, 0, 1, 1);
 
         btn_controller_14_wid = new QWidget(btns_wid);
-        btn_controller_14_wid->setObjectName(QStringLiteral("btn_controller_14_wid"));
+        btn_controller_14_wid->setObjectName(QString::fromUtf8("btn_controller_14_wid"));
 
         gridLayout_13->addWidget(btn_controller_14_wid, 3, 1, 1, 1);
 
         btn_controller_15_wid = new QWidget(btns_wid);
-        btn_controller_15_wid->setObjectName(QStringLiteral("btn_controller_15_wid"));
+        btn_controller_15_wid->setObjectName(QString::fromUtf8("btn_controller_15_wid"));
 
         gridLayout_13->addWidget(btn_controller_15_wid, 3, 2, 1, 1);
 
         btn_controller_16_wid = new QWidget(btns_wid);
-        btn_controller_16_wid->setObjectName(QStringLiteral("btn_controller_16_wid"));
+        btn_controller_16_wid->setObjectName(QString::fromUtf8("btn_controller_16_wid"));
 
         gridLayout_13->addWidget(btn_controller_16_wid, 3, 3, 1, 1);
 
@@ -752,8 +749,8 @@ public:
 
         main_tab_wid->addTab(otherbutton_tab, QString());
         custom_win_tab = new QWidget();
-        custom_win_tab->setObjectName(QStringLiteral("custom_win_tab"));
-        custom_win_tab->setStyleSheet(QLatin1String("#custom_win_tab\n"
+        custom_win_tab->setObjectName(QString::fromUtf8("custom_win_tab"));
+        custom_win_tab->setStyleSheet(QString::fromUtf8("#custom_win_tab\n"
 "{\n"
 "	\n"
 "	border-image: url(:/CustomControls/picture/background.png);\n"
@@ -764,11 +761,11 @@ public:
         gridLayout_15 = new QGridLayout(custom_win_tab);
         gridLayout_15->setSpacing(0);
         gridLayout_15->setContentsMargins(11, 11, 11, 11);
-        gridLayout_15->setObjectName(QStringLiteral("gridLayout_15"));
+        gridLayout_15->setObjectName(QString::fromUtf8("gridLayout_15"));
         gridLayout_15->setContentsMargins(0, 0, 0, 0);
         wid_customwin_0 = new QWidget(custom_win_tab);
-        wid_customwin_0->setObjectName(QStringLiteral("wid_customwin_0"));
-        wid_customwin_0->setStyleSheet(QLatin1String("#wid_customwin_0\n"
+        wid_customwin_0->setObjectName(QString::fromUtf8("wid_customwin_0"));
+        wid_customwin_0->setStyleSheet(QString::fromUtf8("#wid_customwin_0\n"
 "{\n"
 "border:0px solid;\n"
 "}"));
@@ -776,13 +773,13 @@ public:
         gridLayout_15->addWidget(wid_customwin_0, 0, 0, 1, 1);
 
         wid_customwin_1 = new QWidget(custom_win_tab);
-        wid_customwin_1->setObjectName(QStringLiteral("wid_customwin_1"));
+        wid_customwin_1->setObjectName(QString::fromUtf8("wid_customwin_1"));
 
         gridLayout_15->addWidget(wid_customwin_1, 0, 1, 1, 1);
 
         wid_customwin_2 = new QWidget(custom_win_tab);
-        wid_customwin_2->setObjectName(QStringLiteral("wid_customwin_2"));
-        wid_customwin_2->setStyleSheet(QLatin1String("#wid_customwin_2\n"
+        wid_customwin_2->setObjectName(QString::fromUtf8("wid_customwin_2"));
+        wid_customwin_2->setStyleSheet(QString::fromUtf8("#wid_customwin_2\n"
 "{\n"
 "border:0px solid;\n"
 "}"));
@@ -790,7 +787,7 @@ public:
         gridLayout_15->addWidget(wid_customwin_2, 1, 0, 1, 1);
 
         wid_customwin_3 = new QWidget(custom_win_tab);
-        wid_customwin_3->setObjectName(QStringLiteral("wid_customwin_3"));
+        wid_customwin_3->setObjectName(QString::fromUtf8("wid_customwin_3"));
 
         gridLayout_15->addWidget(wid_customwin_3, 1, 1, 1, 1);
 
@@ -800,8 +797,8 @@ public:
         gridLayout_15->setColumnStretch(1, 3);
         main_tab_wid->addTab(custom_win_tab, QString());
         blank_tab = new QWidget();
-        blank_tab->setObjectName(QStringLiteral("blank_tab"));
-        blank_tab->setStyleSheet(QLatin1String("\n"
+        blank_tab->setObjectName(QString::fromUtf8("blank_tab"));
+        blank_tab->setStyleSheet(QString::fromUtf8("\n"
 "#blank_tab\n"
 "{\n"
 "border:0px;\n"
@@ -812,7 +809,7 @@ public:
         gridLayout_4 = new QGridLayout(blank_tab);
         gridLayout_4->setSpacing(0);
         gridLayout_4->setContentsMargins(11, 11, 11, 11);
-        gridLayout_4->setObjectName(QStringLiteral("gridLayout_4"));
+        gridLayout_4->setObjectName(QString::fromUtf8("gridLayout_4"));
         gridLayout_4->setContentsMargins(0, 0, 0, 0);
         verticalSpacer_4 = new QSpacerItem(20, 141, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
@@ -823,7 +820,7 @@ public:
         gridLayout_4->addItem(horizontalSpacer, 1, 0, 1, 1);
 
         label = new QLabel(blank_tab);
-        label->setObjectName(QStringLiteral("label"));
+        label->setObjectName(QString::fromUtf8("label"));
         label->setStyleSheet(QString::fromUtf8("font: 60pt \"\345\256\213\344\275\223\";\n"
 "color: rgb(231, 231, 231);\n"
 "padding-bottom:50px;"));
@@ -853,10 +850,10 @@ public:
         gridLayout_2->addWidget(tab_wid, 0, 3, 1, 1);
 
         navigation_wid = new QWidget(CustomControlsClass);
-        navigation_wid->setObjectName(QStringLiteral("navigation_wid"));
+        navigation_wid->setObjectName(QString::fromUtf8("navigation_wid"));
         sizePolicy.setHeightForWidth(navigation_wid->sizePolicy().hasHeightForWidth());
         navigation_wid->setSizePolicy(sizePolicy);
-        navigation_wid->setStyleSheet(QLatin1String("	\n"
+        navigation_wid->setStyleSheet(QString::fromUtf8("	\n"
 "#navigation_wid\n"
 "{\n"
 "background-color: rgb(40, 43, 51);\n"
@@ -864,14 +861,14 @@ public:
         gridLayout = new QGridLayout(navigation_wid);
         gridLayout->setSpacing(0);
         gridLayout->setContentsMargins(11, 11, 11, 11);
-        gridLayout->setObjectName(QStringLiteral("gridLayout"));
+        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout->setContentsMargins(0, 0, 0, 0);
         verticalSpacer = new QSpacerItem(1, 1, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         gridLayout->addItem(verticalSpacer, 7, 0, 1, 1);
 
         sliderbar_btn = new QRadioButton(navigation_wid);
-        sliderbar_btn->setObjectName(QStringLiteral("sliderbar_btn"));
+        sliderbar_btn->setObjectName(QString::fromUtf8("sliderbar_btn"));
         sizePolicy.setHeightForWidth(sliderbar_btn->sizePolicy().hasHeightForWidth());
         sliderbar_btn->setSizePolicy(sizePolicy);
         sliderbar_btn->setStyleSheet(QString::fromUtf8("QRadioButton\n"
@@ -908,7 +905,7 @@ public:
         gridLayout->addWidget(sliderbar_btn, 1, 0, 1, 1);
 
         panel_btn = new QRadioButton(navigation_wid);
-        panel_btn->setObjectName(QStringLiteral("panel_btn"));
+        panel_btn->setObjectName(QString::fromUtf8("panel_btn"));
         sizePolicy.setHeightForWidth(panel_btn->sizePolicy().hasHeightForWidth());
         panel_btn->setSizePolicy(sizePolicy);
         panel_btn->setStyleSheet(QString::fromUtf8("QRadioButton\n"
@@ -945,7 +942,7 @@ public:
         gridLayout->addWidget(panel_btn, 2, 0, 1, 1);
 
         qwt_btn = new QRadioButton(navigation_wid);
-        qwt_btn->setObjectName(QStringLiteral("qwt_btn"));
+        qwt_btn->setObjectName(QString::fromUtf8("qwt_btn"));
         sizePolicy.setHeightForWidth(qwt_btn->sizePolicy().hasHeightForWidth());
         qwt_btn->setSizePolicy(sizePolicy);
         qwt_btn->setStyleSheet(QString::fromUtf8("QRadioButton\n"
@@ -981,7 +978,7 @@ public:
         gridLayout->addWidget(qwt_btn, 3, 0, 1, 1);
 
         animation_btn = new QRadioButton(navigation_wid);
-        animation_btn->setObjectName(QStringLiteral("animation_btn"));
+        animation_btn->setObjectName(QString::fromUtf8("animation_btn"));
         sizePolicy.setHeightForWidth(animation_btn->sizePolicy().hasHeightForWidth());
         animation_btn->setSizePolicy(sizePolicy);
         animation_btn->setStyleSheet(QString::fromUtf8("QRadioButton\n"
@@ -1018,7 +1015,7 @@ public:
         gridLayout->addWidget(animation_btn, 4, 0, 1, 1);
 
         otherbutton_btn = new QRadioButton(navigation_wid);
-        otherbutton_btn->setObjectName(QStringLiteral("otherbutton_btn"));
+        otherbutton_btn->setObjectName(QString::fromUtf8("otherbutton_btn"));
         sizePolicy.setHeightForWidth(otherbutton_btn->sizePolicy().hasHeightForWidth());
         otherbutton_btn->setSizePolicy(sizePolicy);
         otherbutton_btn->setStyleSheet(QString::fromUtf8("QRadioButton\n"
@@ -1056,7 +1053,7 @@ public:
         gridLayout->addWidget(otherbutton_btn, 5, 0, 1, 1);
 
         progressbar_btn = new QRadioButton(navigation_wid);
-        progressbar_btn->setObjectName(QStringLiteral("progressbar_btn"));
+        progressbar_btn->setObjectName(QString::fromUtf8("progressbar_btn"));
         sizePolicy.setHeightForWidth(progressbar_btn->sizePolicy().hasHeightForWidth());
         progressbar_btn->setSizePolicy(sizePolicy);
         progressbar_btn->setStyleSheet(QString::fromUtf8("QRadioButton\n"
@@ -1093,7 +1090,7 @@ public:
         gridLayout->addWidget(progressbar_btn, 0, 0, 1, 1);
 
         custom_win_btn = new QRadioButton(navigation_wid);
-        custom_win_btn->setObjectName(QStringLiteral("custom_win_btn"));
+        custom_win_btn->setObjectName(QString::fromUtf8("custom_win_btn"));
         sizePolicy.setHeightForWidth(custom_win_btn->sizePolicy().hasHeightForWidth());
         custom_win_btn->setSizePolicy(sizePolicy);
         custom_win_btn->setStyleSheet(QString::fromUtf8("QRadioButton\n"
@@ -1155,24 +1152,24 @@ public:
 
     void retranslateUi(QWidget *CustomControlsClass)
     {
-        CustomControlsClass->setWindowTitle(QApplication::translate("CustomControlsClass", "CustomControls", Q_NULLPTR));
-        main_tab_wid->setTabText(main_tab_wid->indexOf(progressbar_tab), QApplication::translate("CustomControlsClass", "\350\277\233\345\272\246\346\235\241", Q_NULLPTR));
-        main_tab_wid->setTabText(main_tab_wid->indexOf(sliderbar_tab), QApplication::translate("CustomControlsClass", "\346\273\221\345\212\250\346\235\241", Q_NULLPTR));
-        main_tab_wid->setTabText(main_tab_wid->indexOf(panel_tab), QApplication::translate("CustomControlsClass", "\344\273\252\350\241\250\347\233\230", Q_NULLPTR));
-        main_tab_wid->setTabText(main_tab_wid->indexOf(qwt_tab), QApplication::translate("CustomControlsClass", "\347\273\237\350\256\241\345\233\276", Q_NULLPTR));
-        main_tab_wid->setTabText(main_tab_wid->indexOf(animation_tab), QApplication::translate("CustomControlsClass", "\345\212\250\347\224\273", Q_NULLPTR));
+        CustomControlsClass->setWindowTitle(QCoreApplication::translate("CustomControlsClass", "CustomControls", nullptr));
+        main_tab_wid->setTabText(main_tab_wid->indexOf(progressbar_tab), QCoreApplication::translate("CustomControlsClass", "\350\277\233\345\272\246\346\235\241", nullptr));
+        main_tab_wid->setTabText(main_tab_wid->indexOf(sliderbar_tab), QCoreApplication::translate("CustomControlsClass", "\346\273\221\345\212\250\346\235\241", nullptr));
+        main_tab_wid->setTabText(main_tab_wid->indexOf(panel_tab), QCoreApplication::translate("CustomControlsClass", "\344\273\252\350\241\250\347\233\230", nullptr));
+        main_tab_wid->setTabText(main_tab_wid->indexOf(qwt_tab), QCoreApplication::translate("CustomControlsClass", "\347\273\237\350\256\241\345\233\276", nullptr));
+        main_tab_wid->setTabText(main_tab_wid->indexOf(animation_tab), QCoreApplication::translate("CustomControlsClass", "\345\212\250\347\224\273", nullptr));
         test_drop_menu_btn->setText(QString());
-        main_tab_wid->setTabText(main_tab_wid->indexOf(otherbutton_tab), QApplication::translate("CustomControlsClass", "\346\214\211\351\222\256", Q_NULLPTR));
-        main_tab_wid->setTabText(main_tab_wid->indexOf(custom_win_tab), QApplication::translate("CustomControlsClass", "\350\275\257\344\273\266\351\241\265\351\235\242", Q_NULLPTR));
-        label->setText(QApplication::translate("CustomControlsClass", "\346\254\242\350\277\216", Q_NULLPTR));
-        main_tab_wid->setTabText(main_tab_wid->indexOf(blank_tab), QApplication::translate("CustomControlsClass", "\347\251\272\347\231\275\351\241\265", Q_NULLPTR));
-        sliderbar_btn->setText(QApplication::translate("CustomControlsClass", "     \346\273\221\345\212\250\346\235\241", Q_NULLPTR));
-        panel_btn->setText(QApplication::translate("CustomControlsClass", "     \344\273\252\350\241\250\347\233\230", Q_NULLPTR));
-        qwt_btn->setText(QApplication::translate("CustomControlsClass", "     \347\273\237\350\256\241\345\233\276", Q_NULLPTR));
-        animation_btn->setText(QApplication::translate("CustomControlsClass", "      \345\212\250\347\224\273", Q_NULLPTR));
-        otherbutton_btn->setText(QApplication::translate("CustomControlsClass", "      \346\214\211\351\222\256", Q_NULLPTR));
-        progressbar_btn->setText(QApplication::translate("CustomControlsClass", "     \350\277\233\345\272\246\346\235\241", Q_NULLPTR));
-        custom_win_btn->setText(QApplication::translate("CustomControlsClass", "    \350\275\257\344\273\266\351\241\265\351\235\242", Q_NULLPTR));
+        main_tab_wid->setTabText(main_tab_wid->indexOf(otherbutton_tab), QCoreApplication::translate("CustomControlsClass", "\346\214\211\351\222\256", nullptr));
+        main_tab_wid->setTabText(main_tab_wid->indexOf(custom_win_tab), QCoreApplication::translate("CustomControlsClass", "\350\275\257\344\273\266\351\241\265\351\235\242", nullptr));
+        label->setText(QCoreApplication::translate("CustomControlsClass", "\346\254\242\350\277\216", nullptr));
+        main_tab_wid->setTabText(main_tab_wid->indexOf(blank_tab), QCoreApplication::translate("CustomControlsClass", "\347\251\272\347\231\275\351\241\265", nullptr));
+        sliderbar_btn->setText(QCoreApplication::translate("CustomControlsClass", "     \346\273\221\345\212\250\346\235\241", nullptr));
+        panel_btn->setText(QCoreApplication::translate("CustomControlsClass", "     \344\273\252\350\241\250\347\233\230", nullptr));
+        qwt_btn->setText(QCoreApplication::translate("CustomControlsClass", "     \347\273\237\350\256\241\345\233\276", nullptr));
+        animation_btn->setText(QCoreApplication::translate("CustomControlsClass", "      \345\212\250\347\224\273", nullptr));
+        otherbutton_btn->setText(QCoreApplication::translate("CustomControlsClass", "      \346\214\211\351\222\256", nullptr));
+        progressbar_btn->setText(QCoreApplication::translate("CustomControlsClass", "     \350\277\233\345\272\246\346\235\241", nullptr));
+        custom_win_btn->setText(QCoreApplication::translate("CustomControlsClass", "    \350\275\257\344\273\266\351\241\265\351\235\242", nullptr));
     } // retranslateUi
 
 };

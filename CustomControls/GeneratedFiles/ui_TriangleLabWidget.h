@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'TriangleLabWidget.ui'
 **
-** Created by: Qt User Interface Compiler version 5.8.0
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,10 +10,7 @@
 #define UI_TRIANGLELABWIDGET_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -25,7 +22,7 @@ public:
     void setupUi(QWidget *TriangleLabWidget)
     {
         if (TriangleLabWidget->objectName().isEmpty())
-            TriangleLabWidget->setObjectName(QStringLiteral("TriangleLabWidget"));
+            TriangleLabWidget->setObjectName(QString::fromUtf8("TriangleLabWidget"));
         TriangleLabWidget->resize(94, 380);
         QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
         sizePolicy.setHorizontalStretch(0);
@@ -33,7 +30,7 @@ public:
         sizePolicy.setHeightForWidth(TriangleLabWidget->sizePolicy().hasHeightForWidth());
         TriangleLabWidget->setSizePolicy(sizePolicy);
         TriangleLabWidget->setMinimumSize(QSize(1, 1));
-        TriangleLabWidget->setStyleSheet(QStringLiteral(""));
+        TriangleLabWidget->setStyleSheet(QString::fromUtf8(""));
 
         retranslateUi(TriangleLabWidget);
 
@@ -42,7 +39,7 @@ public:
 
     void retranslateUi(QWidget *TriangleLabWidget)
     {
-        TriangleLabWidget->setWindowTitle(QApplication::translate("TriangleLabWidget", "TriangleLabWidget", Q_NULLPTR));
+        TriangleLabWidget->setWindowTitle(QCoreApplication::translate("TriangleLabWidget", "TriangleLabWidget", nullptr));
     } // retranslateUi
 
 };

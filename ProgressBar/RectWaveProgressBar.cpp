@@ -1,6 +1,7 @@
 #include "RectWaveProgressBar.h"
 #include "ui_RectWaveProgressBar.h"
 #include<QPainter>
+#include <QPainterPath>
 #include <math.h>
 #include <QDebug>
 RectWaveProgressBar::RectWaveProgressBar(QWidget *parent):QWidget(parent)

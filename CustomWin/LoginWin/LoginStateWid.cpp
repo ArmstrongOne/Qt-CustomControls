@@ -3,6 +3,7 @@
 #include <QMetaType>
 #include <QPainter>
 #include <QtMath>
+#include <QPainterPath>
 LoginStateWid::LoginStateWid(QWidget *parent)
 	: QWidget(parent)
 {

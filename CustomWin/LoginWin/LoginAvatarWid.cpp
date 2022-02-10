@@ -4,6 +4,7 @@
 #include <QPainter>
 #include <QApplication>
 #include <QStyle>
+#include <QPainterPath>
 void LoginAvatarWid::SetAvatarPic(QPixmap pixmap)
 {
 	this->avatar_pix = pixmap;

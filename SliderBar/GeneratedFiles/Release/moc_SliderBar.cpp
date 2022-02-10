@@ -1,18 +1,19 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'SliderBar.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.8.0)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
+#include <memory>
 #include "../../SliderBar.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'SliderBar.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.8.0. It"
+#error "This file was generated using the moc from 5.15.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -41,7 +42,7 @@ QT_MOC_LITERAL(0, 0, 13) // "QRoundedLabel"
 static const uint qt_meta_data_QRoundedLabel[] = {
 
  // content:
-       7,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -62,10 +63,14 @@ void QRoundedLabel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
     Q_UNUSED(_a);
 }
 
-const QMetaObject QRoundedLabel::staticMetaObject = {
-    { &QLabel::staticMetaObject, qt_meta_stringdata_QRoundedLabel.data,
-      qt_meta_data_QRoundedLabel,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
-};
+QT_INIT_METAOBJECT const QMetaObject QRoundedLabel::staticMetaObject = { {
+    QMetaObject::SuperData::link<QLabel::staticMetaObject>(),
+    qt_meta_stringdata_QRoundedLabel.data,
+    qt_meta_data_QRoundedLabel,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
 
 
 const QMetaObject *QRoundedLabel::metaObject() const
@@ -75,17 +80,15 @@ const QMetaObject *QRoundedLabel::metaObject() const
 
 void *QRoundedLabel::qt_metacast(const char *_clname)
 {
-    if (!_clname) return Q_NULLPTR;
+    if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_QRoundedLabel.stringdata0))
-        return static_cast<void*>(const_cast< QRoundedLabel*>(this));
+        return static_cast<void*>(this);
     return QLabel::qt_metacast(_clname);
 }
 
 int QRoundedLabel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QLabel::qt_metacall(_c, _id, _a);
-    if (_id < 0)
-        return _id;
     return _id;
 }
 QT_WARNING_POP
